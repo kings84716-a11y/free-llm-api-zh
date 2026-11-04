@@ -1,0 +1,228 @@
+{
+ "date": "2026-11-04 09:00",
+ "openrouter_free_models": [
+  "cohere/north-mini-code:free",
+  "dots-studio/dots-3-note-preview:free",
+  "google/gemma-4-26b-a4b-it:free",
+  "google/gemma-4-31b-it:free",
+  "google/lyria-3-clip-preview",
+  "google/lyria-3-pro-preview",
+  "liquid/lfm-2.5-2.6b:free",
+  "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+  "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "nvidia/nemotron-3.5-content-safety:free",
+  "nvidia/nemotron-3.5-lightning:free",
+  "nvidia/nemotron-3.5-super-vl:free",
+  "openrouter/free",
+  "recursive/flint-v1.0:free",
+  "stealth/crouton-alpha",
+  "thinkingmachines/inkling-small:free",
+  "thinkingmachines/inkling:free",
+  "xingchen-agi/xing4.0-29b-a4b:free"
+ ],
+ "openrouter_err": null,
+ "openrouter_quota": {
+  "free_tier": false,
+  "free_used": 3,
+  "free_limit": 1000
+ },
+ "clawlabs": {
+  "updated": "2026-11-03T11:43:04.301Z",
+  "models": [
+   {
+    "id": "google/gemma-4-31b-it:free",
+    "health": "ok",
+    "rate": "20 RPM · 50 RPD",
+    "data_use": "no-training",
+    "ctx": 262144,
+    "mod": "image,text,video"
+   },
+   {
+    "id": "google/gemma-4-26b-a4b-it:free",
+    "health": "sick",
+    "rate": "20 RPM · 50 RPD",
+    "data_use": "no-training",
+    "ctx": 262144,
+    "mod": "image,text,video"
+   },
+   {
+    "id": "thinkingmachines/inkling:free",
+    "health": "",
+    "rate": "20 RPM · 50 RPD",
+    "data_use": "may-train",
+    "ctx": 1048576,
+    "mod": "text,image,audio"
+   },
+   {
+    "id": "thinkingmachines/inkling-small:free",
+    "health": "",
+    "rate": "20 RPM · 50 RPD",
+    "data_use": "may-train",
+    "ctx": 1048576,
+    "mod": "text,image,audio"
+   },
+   {
+    "id": "nvidia/nemotron-3-ultra-550b-a55b:free",
+    "health": "",
+    "rate": "20 RPM · 50 RPD",
+    "data_use": "may-train",
+    "ctx": 1000000,
+    "mod": "text"
+   },
+   {
+    "id": "cohere/north-mini-code:free",
+    "health": "ok",
+    "rate": "20 RPM · 50 RPD",
+    "data_use": "no-training",
+    "ctx": 256000,
+    "mod": "text"
+   },
+   {
+    "id": "xingchen-agi/xing4.0-29b-a4b:free",
+    "health": "ok",
+    "rate": "20 RPM · 50 RPD",
+    "data_use": "no-training",
+    "ctx": 262144,
+    "mod": "text"
+   },
+   {
+    "id": "nvidia/nemotron-3.5-super-vl:free",
+    "health": "",
+    "rate": "20 RPM · 50 RPD",
+    "data_use": "may-train",
+    "ctx": 1000000,
+    "mod": "text,image,video"
+   },
+   {
+    "id": "recursive/flint-v1.0:free",
+    "health": "sick",
+    "rate": "20 RPM · 50 RPD",
+    "data_use": "no-training",
+    "ctx": 262144,
+    "mod": "text"
+   },
+   {
+    "id": "nvidia/nemotron-3.5-lightning:free",
+    "health": "",
+    "rate": "20 RPM · 50 RPD",
+    "data_use": "may-train",
+    "ctx": 1000000,
+    "mod": "text"
+   },
+   {
+    "id": "dots-studio/dots-3-note-preview:free",
+    "health": "ok",
+    "rate": "20 RPM · 50 RPD",
+    "data_use": "no-training",
+    "ctx": 512000,
+    "mod": "text,image"
+   },
+   {
+    "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+    "health": "",
+    "rate": "20 RPM · 50 RPD",
+    "data_use": "may-train",
+    "ctx": 256000,
+    "mod": "text,audio,image,video"
+   },
+   {
+    "id": "liquid/lfm-2.5-2.6b:free",
+    "health": "",
+    "rate": "20 RPM · 50 RPD",
+    "data_use": "may-train",
+    "ctx": 65536,
+    "mod": "text"
+   },
+   {
+    "id": "google/lyria-3-pro-preview",
+    "health": "",
+    "rate": "20 RPM · 50 RPD",
+    "data_use": "no-training",
+    "ctx": 1048576,
+    "mod": "text,image,audio"
+   },
+   {
+    "id": "google/lyria-3-clip-preview",
+    "health": "",
+    "rate": "20 RPM · 50 RPD",
+    "data_use": "no-training",
+    "ctx": 1048576,
+    "mod": "text,image,audio"
+   },
+   {
+    "id": "nvidia/nemotron-3.5-content-safety:free",
+    "health": "",
+    "rate": "20 RPM · 50 RPD",
+    "data_use": "may-train",
+    "ctx": 128000,
+    "mod": "text,image"
+   },
+   {
+    "id": "pollinations/openai-fast",
+    "health": "",
+    "rate": "anonymous tier (no key)",
+    "data_use": null,
+    "ctx": null,
+    "mod": "text"
+   }
+  ]
+ },
+ "providers_alive": {
+  "openrouter": [
+   "alive",
+   200
+  ],
+  "groq": [
+   "alive_auth",
+   401
+  ],
+  "cerebras": [
+   "alive_auth",
+   403
+  ],
+  "modelscope": [
+   "alive",
+   200
+  ],
+  "amd": [
+   "down",
+   "-"
+  ],
+  "siliconflow": [
+   "alive_auth",
+   401
+  ],
+  "nvidia": [
+   "alive",
+   200
+  ],
+  "cohere": [
+   "alive_auth",
+   401
+  ],
+  "sambanova": [
+   "alive",
+   200
+  ],
+  "mistral": [
+   "alive_auth",
+   401
+  ],
+  "dashscope": [
+   "alive_auth",
+   401
+  ],
+  "bigmodel": [
+   "alive_auth",
+   401
+  ],
+  "pollinations": [
+   "alive",
+   200
+  ]
+ },
+ "providers_total": 15,
+ "keys_configured": [
+  "OPENROUTER_API_KEY"
+ ]
+}

@@ -1,0 +1,144 @@
+{
+  "fetched": true,
+  "source_updated_at": "2026-11-03T11:43:04.301Z",
+  "checked_at": "2026-11-04T18:10:05+08:00",
+  "count": 17,
+  "models": [
+    {
+      "id": "cohere/north-mini-code:free",
+      "health": "ok",
+      "rate": "20 RPM · 50 RPD",
+      "data_use": "no-training",
+      "context_window": 256000,
+      "modalities": "text"
+    },
+    {
+      "id": "dots-studio/dots-3-note-preview:free",
+      "health": "ok",
+      "rate": "20 RPM · 50 RPD",
+      "data_use": "no-training",
+      "context_window": 512000,
+      "modalities": "text,image"
+    },
+    {
+      "id": "google/gemma-4-26b-a4b-it:free",
+      "health": "sick",
+      "rate": "20 RPM · 50 RPD",
+      "data_use": "no-training",
+      "context_window": 262144,
+      "modalities": "image,text,video"
+    },
+    {
+      "id": "google/gemma-4-31b-it:free",
+      "health": "ok",
+      "rate": "20 RPM · 50 RPD",
+      "data_use": "no-training",
+      "context_window": 262144,
+      "modalities": "image,text,video"
+    },
+    {
+      "id": "google/lyria-3-clip-preview",
+      "health": "",
+      "rate": "20 RPM · 50 RPD",
+      "data_use": "no-training",
+      "context_window": 1048576,
+      "modalities": "text,image,audio"
+    },
+    {
+      "id": "google/lyria-3-pro-preview",
+      "health": "",
+      "rate": "20 RPM · 50 RPD",
+      "data_use": "no-training",
+      "context_window": 1048576,
+      "modalities": "text,image,audio"
+    },
+    {
+      "id": "liquid/lfm-2.5-2.6b:free",
+      "health": "",
+      "rate": "20 RPM · 50 RPD",
+      "data_use": "may-train",
+      "context_window": 65536,
+      "modalities": "text"
+    },
+    {
+      "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+      "health": "",
+      "rate": "20 RPM · 50 RPD",
+      "data_use": "may-train",
+      "context_window": 256000,
+      "modalities": "text,audio,image,video"
+    },
+    {
+      "id": "nvidia/nemotron-3-ultra-550b-a55b:free",
+      "health": "",
+      "rate": "20 RPM · 50 RPD",
+      "data_use": "may-train",
+      "context_window": 1000000,
+      "modalities": "text"
+    },
+    {
+      "id": "nvidia/nemotron-3.5-content-safety:free",
+      "health": "",
+      "rate": "20 RPM · 50 RPD",
+      "data_use": "may-train",
+      "context_window": 128000,
+      "modalities": "text,image"
+    },
+    {
+      "id": "nvidia/nemotron-3.5-lightning:free",
+      "health": "",
+      "rate": "20 RPM · 50 RPD",
+      "data_use": "may-train",
+      "context_window": 1000000,
+      "modalities": "text"
+    },
+    {
+      "id": "nvidia/nemotron-3.5-super-vl:free",
+      "health": "",
+      "rate": "20 RPM · 50 RPD",
+      "data_use": "may-train",
+      "context_window": 1000000,
+      "modalities": "text,image,video"
+    },
+    {
+      "id": "pollinations/openai-fast",
+      "health": "",
+      "rate": "anonymous tier (no key)",
+      "data_use": null,
+      "context_window": null,
+      "modalities": "text"
+    },
+    {
+      "id": "recursive/flint-v1.0:free",
+      "health": "sick",
+      "rate": "20 RPM · 50 RPD",
+      "data_use": "no-training",
+      "context_window": 262144,
+      "modalities": "text"
+    },
+    {
+      "id": "thinkingmachines/inkling-small:free",
+      "health": "",
+      "rate": "20 RPM · 50 RPD",
+      "data_use": "may-train",
+      "context_window": 1048576,
+      "modalities": "text,image,audio"
+    },
+    {
+      "id": "thinkingmachines/inkling:free",
+      "health": "",
+      "rate": "20 RPM · 50 RPD",
+      "data_use": "may-train",
+      "context_window": 1048576,
+      "modalities": "text,image,audio"
+    },
+    {
+      "id": "xingchen-agi/xing4.0-29b-a4b:free",
+      "health": "ok",
+      "rate": "20 RPM · 50 RPD",
+      "data_use": "no-training",
+      "context_window": 262144,
+      "modalities": "text"
+    }
+  ]
+}

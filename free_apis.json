@@ -1,0 +1,197 @@
+{
+  "_meta": {
+    "name": "免费 AI API 资源库 (Free AI API Hub)",
+    "owner": "Eric",
+    "updated": "2026-11-02",
+    "note": "所有额度为公开文档/实测值，免费政策随时可能变；以各平台官方 pricing 页为准。数据隐私列标注免费档是否用请求内容训练模型。",
+    "data_sources": [
+      "https://github.com/cheahjs/free-llm-api-resources",
+      "https://openrouter.ai/api/v1/models",
+      "https://models.dev"
+    ]
+  },
+  "text_llm": [
+    {
+      "provider": "Google Gemini",
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai",
+      "openai_compatible": true,
+      "card_required": false,
+      "free_models": ["gemini-2.5-flash", "gemini-2.5-flash-lite", "gemini-2.5-pro(限次)"],
+      "quota": "按模型 RPM/TPM/RPD 限制，Flash 系列免费档较大；Grounding 搜索 1500 RPD",
+      "privacy": "免费档请求内容会被 Google 用于改进产品，勿放敏感数据",
+      "best_for": "日常文本/长上下文/多模态主力，免费额度最慷慨之一",
+      "signup": "Google 账号 → aistudio.google.com 拿 key",
+      "verified": "2026-11"
+    },
+    {
+      "provider": "Groq",
+      "base_url": "https://api.groq.com/openai/v1",
+      "openai_compatible": true,
+      "card_required": false,
+      "free_models": ["gpt-oss-120b/20b", "qwen3.8-27b", "llama 系列(部分下线)", "whisper(STT)"],
+      "quota": "免费档 30 RPM；2026-09 收紧为约 1000 RPD / 8K TPM / 200K TPD（gpt-oss 主力，部分模型更高）",
+      "privacy": "不用于训练(按其条款)",
+      "best_for": "超低延迟推理、语音识别、Agent 高频小调用",
+      "signup": "console.groq.com",
+      "verified": "2026-11"
+    },
+    {
+      "provider": "OpenRouter :free",
+      "base_url": "https://openrouter.ai/api/v1",
+      "openai_compatible": true,
+      "card_required": false,
+      "free_models": "25+ 个 :free 后缀模型(见 openrouter.ai/models?max_price=0)",
+      "quota": "未充值 50 请求/天、20 RPM；账户累计充值≥$10 后升到 1000/天；失败请求也计数",
+      "privacy": "免费模型可能经过多家提供商，隐私不保证",
+      "best_for": "一个 key 白嫖多家模型、做模型对比/备胎",
+      "signup": "openrouter.ai",
+      "verified": "2026-11"
+    },
+    {
+      "provider": "NVIDIA NIM (build.nvidia.com)",
+      "base_url": "https://integrate.api.nvidia.com/v1",
+      "openai_compatible": true,
+      "card_required": false,
+      "free_models": ["DeepSeek V4 Flash", "Nemotron", "Llama", "Qwen 等共享目录"],
+      "quota": "免费试用档，每模型独立限速，官方未公开统一数字；定位评估用途",
+      "privacy": "评估条款",
+      "best_for": "白嫖 DeepSeek/Llama 新模型做评测",
+      "signup": "build.nvidia.com",
+      "verified": "2026-11"
+    },
+    {
+      "provider": "AMD Radeon Cloud (Public Free Model APIs)",
+      "base_url": "https://developer.amd.com.cn/radeon/api/v1",
+      "openai_compatible": true,
+      "card_required": false,
+      "free_models": ["DeepSeek-V4-Flash-0731", "Qwen3.8-Flash-Next(262K ctx)", "MiniCPM5-1B", "DeepSeek-V4-Flash-Vision-Exp(LIMITED)"],
+      "quota": "积分软限流，并发>5 开始排队；不消耗 GPU 额度；定位开发调试，免费可能随时撤",
+      "privacy": "开发调试条款",
+      "best_for": "免费 DeepSeek/Qwen 全能调用、视觉、长文档；OpenAI 兼容直接接",
+      "signup": "developer.amd.com(.cn) → Token Factory 拿 key",
+      "verified": "2026-11"
+    },
+    {
+      "provider": "Cerebras",
+      "base_url": "https://api.cerebras.ai/v1",
+      "openai_compatible": true,
+      "card_required": false,
+      "free_models": "共享目录模型(Qwen/Llama 等)",
+      "quota": "无永久免费档；Free Trial 约 5 RPM、30K tokens/请求，约 1M tokens/天(社区实测)",
+      "privacy": "试用条款",
+      "best_for": "极致速度的批量推理体验",
+      "signup": "cloud.cerebras.ai",
+      "verified": "2026-11"
+    },
+    {
+      "provider": "SambaNova",
+      "base_url": "https://api.sambanova.ai/v1",
+      "openai_compatible": true,
+      "card_required": false,
+      "free_models": "Llama/Qwen 等",
+      "quota": "Free Tier(未绑卡)有独立限速；Developer(绑卡) 20M tokens/天",
+      "privacy": "条款约束",
+      "best_for": "快速开源模型推理备胎",
+      "signup": "cloud.sambanova.ai",
+      "verified": "2026-11"
+    },
+    {
+      "provider": "Mistral La Plateforme",
+      "base_url": "https://api.mistral.ai/v1",
+      "openai_compatible": true,
+      "card_required": false,
+      "free_models": "Mistral 系列 + Codestral(实验)",
+      "quota": "Free mode 可建 key，限速较紧(实验用量)",
+      "privacy": "免费实验档",
+      "best_for": "Mistral/Codestral 代码任务体验",
+      "signup": "console.mistral.ai",
+      "verified": "2026-11"
+    },
+    {
+      "provider": "Cloudflare Workers AI",
+      "base_url": "https://api.cloudflare.com/client/v4/accounts/{acct}/ai",
+      "openai_compatible": true,
+      "card_required": false,
+      "free_models": "Llama/Qwen/Whisper/Flux/BGE 等大量开源模型",
+      "quota": "免费档每天 10,000 Neurons(约可跑数千次小推理)",
+      "privacy": "Cloudflare 条款",
+      "best_for": "Serverless 白嫖、嵌入、语音、图片",
+      "signup": "dash.cloudflare.com → Workers AI",
+      "verified": "2026-11"
+    },
+    {
+      "provider": "SiliconFlow 硅基流动",
+      "base_url": "https://api.siliconflow.cn/v1",
+      "openai_compatible": true,
+      "card_required": false,
+      "free_models": "Qwen/DeepSeek/GLM 等部分模型标免费 + 免费 BGE 嵌入/rerank",
+      "quota": "注册送额度，部分开源模型永久免费限速；以模型中心为准(国内直连快)",
+      "privacy": "国内服务，实名",
+      "best_for": "国内免代理直连、中文模型、嵌入/重排",
+      "signup": "cloud.siliconflow.cn",
+      "verified": "2026-11"
+    },
+    {
+      "provider": "国内大厂免费额度",
+      "base_url": "各自兼容端点",
+      "openai_compatible": true,
+      "card_required": "实名",
+      "free_models": "阿里百炼(Qwen)、火山豆包、百度千帆、腾讯混元",
+      "quota": "阿里云百炼约100万 tokens 赠送(部分长期)；火山引擎每日约200万 tokens；百度千帆每模型100万/3月；腾讯混元约100万/年(2026 汇总值，以官方为准)",
+      "privacy": "国内实名服务",
+      "best_for": "国内直连、Qwen/豆包中文、多模态",
+      "signup": "各云控制台",
+      "verified": "2026-11"
+    },
+    {
+      "provider": "GitHub Models",
+      "base_url": "https://models.inference.ai.azure.com",
+      "openai_compatible": true,
+      "card_required": false,
+      "free_models": "GPT/GPT-OSS/Llama/Qwen/Phi 等(随目录变动)",
+      "quota": "按 GitHub 账号限速，个人开发免费，生产受限",
+      "privacy": "GitHub 条款",
+      "best_for": "有 GitHub 账号即白嫖多家模型做原型",
+      "signup": "github.com → Models",
+      "verified": "2026-11"
+    },
+    {
+      "provider": "Hyperbolic",
+      "base_url": "https://api.hyperbolic.xyz/v1",
+      "openai_compatible": true,
+      "card_required": false,
+      "free_models": "开源 LLM",
+      "quota": "新账户历史上送 ~$5 试用额度(随时调整)",
+      "privacy": "条款约束",
+      "best_for": "试用开源模型 + GPU 租用",
+      "signup": "app.hyperbolic.xyz",
+      "verified": "2026-11"
+    },
+    {
+      "provider": "Cohere",
+      "base_url": "https://api.cohere.ai/v1",
+      "openai_compatible": "compat 端点可用",
+      "card_required": false,
+      "free_models": ["Command", "Embed(嵌入)", "Rerank"],
+      "quota": "Trial key 1000 次调用/月(限速)",
+      "privacy": "试用条款",
+      "best_for": "免费嵌入/重排序、Command 体验",
+      "signup": "dashboard.cohere.com",
+      "verified": "2026-11"
+    }
+  ],
+  "multimodal": [
+    {"category": "视觉理解", "providers": "Gemini Flash 免费档、AMD DeepSeek-V4-Flash-Vision(LIMITED FREE)、Groq 开源视觉模型、GitHub Models"},
+    {"category": "TTS 语音合成", "providers": "Edge TTS(非官方免费)、Cloudflare Workers AI、各厂赠送额度(火山/阿里)；ElevenLabs/Deepgram/Cartesia 有小额月度免费额度", "note": "用户当前已用火山 TTS(openspeech)，在额度内"},
+    {"category": "STT 语音识别", "providers": "Groq Whisper(免费主力,30RPM)、Cloudflare Whisper、DeepInfra/HF Whisper、Google speech 免费额度", "note": "用户当前用火山 STT"},
+    {"category": "图片生成", "providers": "Cloudflare Flux(Neurons 免费档)、Google/Gemini 图像(随 Gemini 限次)、NVIDIA NIM、硅基流动部分模型、各厂赠送"},
+    {"category": "嵌入/Rerank", "providers": "Cohere trial(1000/月)、Jina(免费档)、硅基流动免费 BGE、Gemini embedding、Cloudflare BGE"}
+  ],
+  "dead_or_paid": [
+    {"provider": "DeepInfra", "note": "无正式免费档，历史曾送 ~$1.8，当前文档不保证"},
+    {"provider": "HuggingFace Inference Providers", "note": "2026 改为充值制，免费用户基本不可用"},
+    {"provider": "DeepSeek 官方", "note": "新账户仅约 $1 赠送，之后付费"},
+    {"provider": "跨所搬砖/Hummingbot 做市/跟单", "note": "非 API 范畴，已验证散户负期望"},
+    {"provider": "无限制完全免费 API", "note": "不存在；唯一无限制是本地跑模型(T2 有卡)"}
+  ]
+}

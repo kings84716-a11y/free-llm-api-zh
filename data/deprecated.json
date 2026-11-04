@@ -1,0 +1,45 @@
+{
+  "updated": "2026-11-04",
+  "deprecated": [
+    {
+      "name": "GitHub Models",
+      "reason": "2026-07-30 全面下线(playground/目录/推理API/BYOK 全部 retired)，并入 Copilot 订阅档",
+      "date": "2026-07"
+    },
+    {
+      "name": "零一万物 01.AI Yi API",
+      "reason": "平台关停/转型，Yi API 不再开放",
+      "date": "2026"
+    },
+    {
+      "name": "MiniMax 开放平台",
+      "reason": "无持续免费层，仅一次性赠送额度",
+      "date": "2026-11"
+    },
+    {
+      "name": "Infini-AI 无问芯穹",
+      "reason": "早期百亿tokens免费活动结束，LLM API 不再免费(转为算力/企业服务)",
+      "date": "2026-11"
+    },
+    {
+      "name": "Together AI",
+      "reason": "2025-07起强制最低$5-15充值，无免费层",
+      "date": "2025"
+    },
+    {
+      "name": "Fireworks AI",
+      "reason": "试用额度基本要卡",
+      "date": "2025"
+    },
+    {
+      "name": "HuggingFace Inference",
+      "reason": "2026改充值制，免费仅$0.10/月",
+      "date": "2026"
+    },
+    {
+      "name": "Lepton/Novita/Baseten/Hyperbolic",
+      "reason": "仅一次性赠送信用($10/$100/$30/$5)，非持续免费",
+      "date": "2025"
+    }
+  ]
+}
