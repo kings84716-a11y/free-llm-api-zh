@@ -1,0 +1,270 @@
+{
+ "tashfeenahmed/freellmapi": {
+  "full_name": "tashfeenahmed/freellmapi",
+  "stargazers_count": 47571,
+  "forks_count": 6509,
+  "open_issues_count": 57,
+  "created_at": "2026-04-21T13:38:59Z",
+  "pushed_at": "2026-11-04T17:03:31Z",
+  "subscribers_count": 263,
+  "license": {
+   "key": "mit",
+   "name": "MIT License",
+   "spdx_id": "MIT",
+   "url": "https://api.github.com/licenses/mit",
+   "node_id": "MDc6TGljZW5zZTEz"
+  },
+  "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
+  "archived": false
+ },
+ "mnfst/awesome-free-llm-apis": {
+  "full_name": "mnfst/awesome-free-llm-apis",
+  "stargazers_count": 12237,
+  "forks_count": 1414,
+  "open_issues_count": 4,
+  "created_at": "2026-03-21T18:14:07Z",
+  "pushed_at": "2026-11-04T15:19:38Z",
+  "subscribers_count": 144,
+  "license": {
+   "key": "cc0-1.0",
+   "name": "Creative Commons Zero v1.0 Universal",
+   "spdx_id": "CC0-1.0",
+   "url": "https://api.github.com/licenses/cc0-1.0",
+   "node_id": "MDc6TGljZW5zZTY="
+  },
+  "description": "List of Permanent Free LLM API  (API Keys)",
+  "archived": false
+ },
+ "open-free-llm-api/awesome-freellm-apis": {
+  "full_name": "open-free-llm-api/awesome-freellm-apis",
+  "stargazers_count": 5145,
+  "forks_count": 800,
+  "open_issues_count": 16,
+  "created_at": "2026-05-10T15:03:43Z",
+  "pushed_at": "2026-10-27T02:42:18Z",
+  "subscribers_count": 42,
+  "license": {
+   "key": "mit",
+   "name": "MIT License",
+   "spdx_id": "MIT",
+   "url": "https://api.github.com/licenses/mit",
+   "node_id": "MDc6TGljZW5zZTEz"
+  },
+  "description": "134+ free LLM APIs & AI API keys from 40+ providers. Google Gemini, NVIDIA NIM, Groq, OpenRouter & more. One-click setup for Claude Code, Cursor and Codex.",
+  "archived": false
+ },
+ "cheahjs/free-llm-api-resources": {
+  "repo": "cheahjs/free-llm-api-resources",
+  "error": "HTTP Error 404: Not Found"
+ },
+ "ripienaar/free-for-dev": {
+  "full_name": "ripienaar/free-for-dev",
+  "stargazers_count": 141877,
+  "forks_count": 15231,
+  "open_issues_count": 12,
+  "created_at": "2015-03-18T21:06:26Z",
+  "pushed_at": "2026-11-04T14:41:32Z",
+  "subscribers_count": 1823,
+  "license": null,
+  "description": "A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",
+  "archived": false
+ },
+ "ClawLabsAI/free-ai-models": {
+  "full_name": "ClawLabsAI/free-ai-models",
+  "stargazers_count": 254,
+  "forks_count": 25,
+  "open_issues_count": 1,
+  "created_at": "2026-05-07T13:55:59Z",
+  "pushed_at": "2026-11-04T11:55:42Z",
+  "subscribers_count": 15,
+  "license": {
+   "key": "mit",
+   "name": "MIT License",
+   "spdx_id": "MIT",
+   "url": "https://api.github.com/licenses/mit",
+   "node_id": "MDc6TGljZW5zZTEz"
+  },
+  "description": "Daily-updated list of free AI models (free LLM APIs), ranked by quality with live status. Plus one OpenAI-compatible endpoint that routes to the best one.",
+  "archived": false
+ },
+ "peter123023/awesome-free-llm-api": {
+  "full_name": "peter123023/awesome-free-llm-api",
+  "stargazers_count": 207,
+  "forks_count": 9,
+  "open_issues_count": 4,
+  "created_at": "2026-09-01T17:49:12Z",
+  "pushed_at": "2026-11-03T06:39:47Z",
+  "subscribers_count": 3,
+  "license": {
+   "key": "mit",
+   "name": "MIT License",
+   "spdx_id": "MIT",
+   "url": "https://api.github.com/licenses/mit",
+   "node_id": "MDc6TGljZW5zZTEz"
+  },
+  "description": "免费大模型 API 导航 · 只收录能通过 API Key 和 endpoint 调用的永久免费 / 限时免费接口｜A curated list of free LLM APIs — permanently free tiers and limited-time free models, all callable via API key and endpoint. Channel-first, with a model index for DeepSeek, GLM, Qwen and more",
+  "archived": false
+ },
+ "chatanywhere/GPT_API_free": {
+  "full_name": "chatanywhere/GPT_API_free",
+  "stargazers_count": 45408,
+  "forks_count": 2762,
+  "open_issues_count": 11,
+  "created_at": "2023-04-23T12:42:08Z",
+  "pushed_at": "2026-10-30T11:02:36Z",
+  "subscribers_count": 182,
+  "license": {
+   "key": "mit",
+   "name": "MIT License",
+   "spdx_id": "MIT",
+   "url": "https://api.github.com/licenses/mit",
+   "node_id": "MDc6TGljZW5zZTEz"
+  },
+  "description": "免费大模型API，支持免费调用GPT、DeepSeek等主流模型，免费额度10000点，每日刷新！另付费价格最低官方1-2折！",
+  "archived": false
+ },
+ "xtekky/gpt4free": {
+  "full_name": "xtekky/gpt4free",
+  "stargazers_count": 67007,
+  "forks_count": 13464,
+  "open_issues_count": 8,
+  "created_at": "2023-03-29T17:00:43Z",
+  "pushed_at": "2026-11-03T02:49:15Z",
+  "subscribers_count": 486,
+  "license": {
+   "key": "gpl-3.0",
+   "name": "GNU General Public License v3.0",
+   "spdx_id": "GPL-3.0",
+   "url": "https://api.github.com/licenses/gpl-3.0",
+   "node_id": "MDc6TGljZW5zZTk="
+  },
+  "description": "The official gpt4free repository | various collection of powerful language models | opus 4.6 gpt 5.3 kimi 2.5 deepseek v3.2 gemini 3",
+  "archived": false
+ },
+ "BerriAI/litellm": {
+  "full_name": "BerriAI/litellm",
+  "stargazers_count": 62716,
+  "forks_count": 13011,
+  "open_issues_count": 5722,
+  "created_at": "2023-07-27T00:09:52Z",
+  "pushed_at": "2026-11-05T00:56:13Z",
+  "subscribers_count": 236,
+  "license": {
+   "key": "other",
+   "name": "Other",
+   "spdx_id": "NOASSERTION",
+   "url": null,
+   "node_id": "MDc6TGljZW5zZTA="
+  },
+  "description": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]",
+  "archived": false
+ },
+ "Calcium-Ion/new-api": {
+  "full_name": "QuantumNous/new-api",
+  "stargazers_count": 51369,
+  "forks_count": 12473,
+  "open_issues_count": 1432,
+  "created_at": "2023-11-10T19:33:36Z",
+  "pushed_at": "2026-11-04T15:40:14Z",
+  "subscribers_count": 159,
+  "license": {
+   "key": "agpl-3.0",
+   "name": "GNU Affero General Public License v3.0",
+   "spdx_id": "AGPL-3.0",
+   "url": "https://api.github.com/licenses/agpl-3.0",
+   "node_id": "MDc6TGljZW5zZTE="
+  },
+  "description": "Open-source AI gateway. Self-hosted LLM gateway with OpenAI-, Claude- and Gemini-compatible APIs, model routing, access control, usage tracking and cost accounting.",
+  "archived": false
+ },
+ "AIPMAndy/FreeToken": {
+  "full_name": "AIPMAndy/FreeToken",
+  "stargazers_count": 154,
+  "forks_count": 20,
+  "open_issues_count": 2,
+  "created_at": "2026-05-04T11:27:12Z",
+  "pushed_at": "2026-10-29T11:38:21Z",
+  "subscribers_count": 4,
+  "license": {
+   "key": "mit",
+   "name": "MIT License",
+   "spdx_id": "MIT",
+   "url": "https://api.github.com/licenses/mit",
+   "node_id": "MDc6TGljZW5zZTEz"
+  },
+  "description": "免费 AI API 额度大全（定期复核）：Gemini、OpenRouter、Groq、DeepSeek、硅基流动等免费 Token 申请入口与限额｜Free LLM API keys & credits 2026",
+  "archived": false
+ },
+ "nejib1/Free-LLM": {
+  "full_name": "nejib1/Free-LLM",
+  "stargazers_count": 930,
+  "forks_count": 119,
+  "open_issues_count": 11,
+  "created_at": "2026-02-13T14:11:27Z",
+  "pushed_at": "2026-11-04T18:25:52Z",
+  "subscribers_count": 21,
+  "license": {
+   "key": "mit",
+   "name": "MIT License",
+   "spdx_id": "MIT",
+   "url": "https://api.github.com/licenses/mit",
+   "node_id": "MDc6TGljZW5zZTEz"
+  },
+  "description": "Directory of 34+ free LLM & AI APIs — permanent free tiers, trial credits, and no-card options. GPT-4o, Gemini, Claude, Llama, DeepSeek, Mistral & more. Synced daily from the live directory at free-llm.com.",
+  "archived": false
+ },
+ "OuterSpacee/free-ai-apis": {
+  "full_name": "OuterSpacee/free-ai-apis",
+  "stargazers_count": 387,
+  "forks_count": 51,
+  "open_issues_count": 2,
+  "created_at": "2026-03-30T02:42:05Z",
+  "pushed_at": "2026-10-30T21:00:31Z",
+  "subscribers_count": 8,
+  "license": {
+   "key": "other",
+   "name": "Other",
+   "spdx_id": "NOASSERTION",
+   "url": null,
+   "node_id": "MDc6TGljZW5zZTA="
+  },
+  "description": "A collective list of free AI APIs for developers. 100+ APIs, 15 categories. No credit card required.",
+  "archived": false
+ },
+ "Free-AI-Things/g4f-working": {
+  "full_name": "Free-AI-Things/g4f-working",
+  "stargazers_count": 153,
+  "forks_count": 18,
+  "open_issues_count": 0,
+  "created_at": "2025-08-04T13:18:44Z",
+  "pushed_at": "2026-11-04T14:43:32Z",
+  "subscribers_count": 3,
+  "license": {
+   "key": "other",
+   "name": "Other",
+   "spdx_id": "NOASSERTION",
+   "url": null,
+   "node_id": "MDc6TGljZW5zZTA="
+  },
+  "description": "g4f-working is a daily-updated list of working no-auth AI providers and models from @xtekky/gpt4free. It helps developers, testers, and AI enthusiasts instantly find which models are currently online and accessible without any API keys, tokens, or cookies.",
+  "archived": false
+ },
+ "songquanpeng/one-api": {
+  "full_name": "songquanpeng/one-api",
+  "stargazers_count": 37333,
+  "forks_count": 6886,
+  "open_issues_count": 1044,
+  "created_at": "2023-04-22T12:39:24Z",
+  "pushed_at": "2026-01-09T03:26:43Z",
+  "subscribers_count": 187,
+  "license": {
+   "key": "mit",
+   "name": "MIT License",
+   "spdx_id": "MIT",
+   "url": "https://api.github.com/licenses/mit",
+   "node_id": "MDc6TGljZW5zZTEz"
+  },
+  "description": "LLM API 管理 & 分发系统，支持 OpenAI、Azure、Anthropic Claude、Google Gemini、DeepSeek、字节豆包、ChatGLM、文心一言、讯飞星火、通义千问、360 智脑、腾讯混元等主流模型，统一 API 适配，可用于 key 管理与二次分发。单可执行文件，提供 Docker 镜像，一键部署，开箱即用。LLM API management & key redistribution system, unifying multiple providers under a single API. Single binary, Docker-ready, with an English UI.",
+  "archived": false
+ }
+}

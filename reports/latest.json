@@ -1,5 +1,5 @@
 {
- "date": "2026-11-04 09:00",
+ "date": "2026-11-05 09:00",
  "openrouter_free_models": [
   "cohere/north-mini-code:free",
   "dots-studio/dots-3-note-preview:free",
@@ -16,18 +16,16 @@
   "openrouter/free",
   "recursive/flint-v1.0:free",
   "stealth/crouton-alpha",
-  "thinkingmachines/inkling-small:free",
-  "thinkingmachines/inkling:free",
   "xingchen-agi/xing4.0-29b-a4b:free"
  ],
  "openrouter_err": null,
  "openrouter_quota": {
   "free_tier": false,
-  "free_used": 3,
+  "free_used": 0,
   "free_limit": 1000
  },
  "clawlabs": {
-  "updated": "2026-11-03T11:43:04.301Z",
+  "updated": "2026-11-04T11:55:42.094Z",
   "models": [
    {
     "id": "google/gemma-4-31b-it:free",
@@ -39,27 +37,11 @@
    },
    {
     "id": "google/gemma-4-26b-a4b-it:free",
-    "health": "sick",
+    "health": "ok",
     "rate": "20 RPM · 50 RPD",
     "data_use": "no-training",
     "ctx": 262144,
     "mod": "image,text,video"
-   },
-   {
-    "id": "thinkingmachines/inkling:free",
-    "health": "",
-    "rate": "20 RPM · 50 RPD",
-    "data_use": "may-train",
-    "ctx": 1048576,
-    "mod": "text,image,audio"
-   },
-   {
-    "id": "thinkingmachines/inkling-small:free",
-    "health": "",
-    "rate": "20 RPM · 50 RPD",
-    "data_use": "may-train",
-    "ctx": 1048576,
-    "mod": "text,image,audio"
    },
    {
     "id": "nvidia/nemotron-3-ultra-550b-a55b:free",
@@ -86,20 +68,20 @@
     "mod": "text"
    },
    {
+    "id": "recursive/flint-v1.0:free",
+    "health": "ok",
+    "rate": "20 RPM · 50 RPD",
+    "data_use": "no-training",
+    "ctx": 262144,
+    "mod": "text"
+   },
+   {
     "id": "nvidia/nemotron-3.5-super-vl:free",
     "health": "",
     "rate": "20 RPM · 50 RPD",
     "data_use": "may-train",
     "ctx": 1000000,
     "mod": "text,image,video"
-   },
-   {
-    "id": "recursive/flint-v1.0:free",
-    "health": "sick",
-    "rate": "20 RPM · 50 RPD",
-    "data_use": "no-training",
-    "ctx": 262144,
-    "mod": "text"
    },
    {
     "id": "nvidia/nemotron-3.5-lightning:free",
@@ -126,12 +108,36 @@
     "mod": "text,audio,image,video"
    },
    {
+    "id": "stealth/crouton-alpha",
+    "health": "",
+    "rate": "20 RPM · 50 RPD",
+    "data_use": null,
+    "ctx": 1048576,
+    "mod": "text,image,video,file,audio"
+   },
+   {
     "id": "liquid/lfm-2.5-2.6b:free",
     "health": "",
     "rate": "20 RPM · 50 RPD",
     "data_use": "may-train",
     "ctx": 65536,
     "mod": "text"
+   },
+   {
+    "id": "thinkingmachines/inkling-small:free",
+    "health": "",
+    "rate": "20 RPM · 50 RPD",
+    "data_use": "may-train",
+    "ctx": 1048576,
+    "mod": "text,image,audio"
+   },
+   {
+    "id": "thinkingmachines/inkling:free",
+    "health": "",
+    "rate": "20 RPM · 50 RPD",
+    "data_use": "may-train",
+    "ctx": 1048576,
+    "mod": "text,image,audio"
    },
    {
     "id": "google/lyria-3-pro-preview",
@@ -192,6 +198,14 @@
    "alive_auth",
    401
   ],
+  "sensenova": [
+   "down",
+   "-"
+  ],
+  "longcat": [
+   "alive_auth",
+   401
+  ],
   "nvidia": [
    "alive",
    200
@@ -221,8 +235,14 @@
    200
   ]
  },
- "providers_total": 15,
+ "providers_total": 17,
  "keys_configured": [
+  "CF_ACCOUNT_ID",
+  "CF_API_BASE",
+  "CF_API_TOKEN",
+  "GEMINI_API_KEY",
+  "GROQ_API_KEY",
+  "NVIDIA_API_KEY",
   "OPENROUTER_API_KEY"
  ]
 }

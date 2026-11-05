@@ -1,5 +1,8 @@
 {
  "new_or_models": [],
- "gone_or_models": [],
+ "gone_or_models": [
+  "thinkingmachines/inkling-small:free",
+  "thinkingmachines/inkling:free"
+ ],
  "new_providers": []
 }

@@ -21,6 +21,12 @@ claw = json.load(open(os.path.join(DATA, "clawlabs-health.json")))
 deprecated_raw = json.load(open(os.path.join(DATA,"deprecated.json"))) if os.path.exists(os.path.join(DATA,"deprecated.json")) else []
 deprecated = deprecated_raw.get("deprecated", []) if isinstance(deprecated_raw, dict) else deprecated_raw
 
+# 新资源发现
+disc_path = os.path.join(DATA, "discoveries-latest.json")
+disc = json.load(open(disc_path)) if os.path.exists(disc_path) else {}
+new_providers = disc.get("new_providers", [])[:12]
+new_or_models = disc.get("new_openrouter_models", [])[:12]
+
 STATUS = {
     "alive_verified": ("🟢", "实测可用", "verified"),
     "alive": ("🔵", "端点在线", "alive"),
@@ -32,6 +38,11 @@ TIER = {1: "🟢 第一梯队", 2: "🟡 第二梯队", 3: "⚪ 第三梯队"}
 
 def esc(s):
     return str(s if s is not None else "").replace("&","&amp;").replace("<","&lt;").replace(">","&gt;").replace('"',"&quot;")
+
+disc_rows = "".join(
+    f'<tr><td><b>{esc(x.get("name"))}</b> <code style="font-size:11px">{esc(x.get("candidate_id"))}</code></td>'
+    f'<td>{x.get("free_model_count",0)}</td><td>{esc(", ".join(x.get("sample_models",[])[:2]))}</td></tr>'
+    for x in new_providers)
 
 cards = []
 for p in sorted(providers, key=lambda x: (x.get("tier",9), {"alive_verified":0,"alive":1,"alive_auth":2,"down":3}.get(x.get("today_status"),4))):
@@ -135,6 +146,7 @@ code{{font-family:ui-monospace,Menlo,monospace;font-size:12px}}
 <div class="legend">🟢 配 Key 真实推理通过 &nbsp;·&nbsp; 🔵 端点在线（注册拿 Key 即用）&nbsp;·&nbsp; 🔴 当前无法访问</div>
 <h2>平台榜单</h2>
 <div class="grid">{''.join(cards)}</div>
+{('<h2>🆕 新发现的免费候选平台（每日自动扫描 · 待核实收录）</h2><table><thead><tr><th>平台</th><th>免费模型数</th><th>示例</th></tr></thead><tbody>'+disc_rows+'</tbody></table>') if disc_rows else ''}
 {('<h2>已失效 / 改收费（别再浪费时间）</h2><ul class="dep">'+dep_rows+'</ul>') if dep_rows else ''}
 <h2>OpenRouter 免费模型（一个 Key 通用）</h2>
 <table><thead><tr><th>模型</th><th>上下文</th><th>模态</th></tr></thead><tbody>{or_rows}</tbody></table>

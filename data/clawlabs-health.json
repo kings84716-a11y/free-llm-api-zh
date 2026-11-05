@@ -1,8 +1,8 @@
 {
   "fetched": true,
-  "source_updated_at": "2026-11-03T11:43:04.301Z",
-  "checked_at": "2026-11-04T18:10:05+08:00",
-  "count": 17,
+  "source_updated_at": "2026-11-04T11:55:42.094Z",
+  "checked_at": "2026-11-05T09:00:02+08:00",
+  "count": 18,
   "models": [
     {
       "id": "cohere/north-mini-code:free",
@@ -22,7 +22,7 @@
     },
     {
       "id": "google/gemma-4-26b-a4b-it:free",
-      "health": "sick",
+      "health": "ok",
       "rate": "20 RPM · 50 RPD",
       "data_use": "no-training",
       "context_window": 262144,
@@ -110,11 +110,19 @@
     },
     {
       "id": "recursive/flint-v1.0:free",
-      "health": "sick",
+      "health": "ok",
       "rate": "20 RPM · 50 RPD",
       "data_use": "no-training",
       "context_window": 262144,
       "modalities": "text"
+    },
+    {
+      "id": "stealth/crouton-alpha",
+      "health": "",
+      "rate": "20 RPM · 50 RPD",
+      "data_use": null,
+      "context_window": 1048576,
+      "modalities": "text,image,video,file,audio"
     },
     {
       "id": "thinkingmachines/inkling-small:free",

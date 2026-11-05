@@ -1,7 +1,7 @@
 {
   "fetched": true,
-  "checked_at": "2026-11-04T18:10:05+08:00",
-  "count": 18,
+  "checked_at": "2026-11-05T09:00:02+08:00",
+  "count": 16,
   "models": [
     {
       "id": "cohere/north-mini-code:free",
@@ -92,18 +92,6 @@
       "name": "Crouton Alpha",
       "context": 1048576,
       "modality": "text,image,video,file,audio"
-    },
-    {
-      "id": "thinkingmachines/inkling-small:free",
-      "name": "Thinking Machines: Inkling Small (free)",
-      "context": 1048576,
-      "modality": "text,image,audio"
-    },
-    {
-      "id": "thinkingmachines/inkling:free",
-      "name": "Thinking Machines: Inkling (free)",
-      "context": 1048576,
-      "modality": "text,image,audio"
     },
     {
       "id": "xingchen-agi/xing4.0-29b-a4b:free",
