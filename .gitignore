@@ -22,3 +22,11 @@ list_*.md
 verify*.json
 automation_feasibility_*.md
 competitor_research_*.md
+
+# 视频生成产物（本地保留，不入库）
+video/shots/
+video/build/
+video/build_h/
+video/assets/*.mp3
+video/*.mp4
+.venv-video/

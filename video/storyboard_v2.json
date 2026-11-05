@@ -1,0 +1,41 @@
+{
+  "title": "免费AI API实测-三段式",
+  "voice": "zh-CN-YunxiNeural",
+  "rate": "+8%",
+  "scenes": [
+    {
+      "narration": "网上免费API合集一堆，照着抄一半都失效了。我花时间把全网免费大模型接口真实测了一遍，今天告诉你哪些真能白嫖。",
+      "shot": "mobile_fold.png",
+      "caption": "免费API合集一半失效？我全测了一遍"
+    },
+    {
+      "narration": "先看官方证据。OpenRouter 的模型目录里，这些模型明码标价零美元，名字直接带 free 后缀。",
+      "shot": "sources/openrouter_free.png",
+      "caption": "OpenRouter：模型标注 free、价格 $0",
+      "landscape": true
+    },
+    {
+      "narration": "英伟达官网白纸黑字写着免费推理，DeepSeek、Nemotron 这些模型都能直接调。",
+      "shot": "sources/nvidia_free.png",
+      "caption": "NVIDIA：Free inference 免费推理",
+      "landscape": true
+    },
+    {
+      "narration": "谷歌 Gemini 有专门的免费层，输入输出 token 都不要钱；Cloudflare 每天送一万神经元额度，语音图片也能用。",
+      "shot": "sources/gemini_pricing.png",
+      "caption": "Gemini / Cloudflare：官方免费层",
+      "landscape": true
+    },
+    {
+      "narration": "光看官网不够，我真发请求跑了一遍。你看，统一接口连调四次全部成功，延迟几十到几百毫秒，费用全是零。",
+      "shot": "proof/proof_terminal.png",
+      "caption": "真实调用实测：HTTP 200，cost 全 $0",
+      "landscape": true
+    },
+    {
+      "narration": "我把它做成了一个每天自动实测的网站，哪家活着、哪家偷偷收费、新出了什么免费模型，打开就知道，还开源了一键配置。链接在评论区，收藏起来慢慢薅。",
+      "shot": "mobile_fold.png",
+      "caption": "每天自动实测 · 免费开源 · 链接在评论区"
+    }
+  ]
+}

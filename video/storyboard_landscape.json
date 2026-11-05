@@ -1,0 +1,60 @@
+{
+  "title": "免费API实测-横屏长版",
+  "voice": "zh-CN-YunxiNeural",
+  "rate": "+6%",
+  "orientation": "landscape",
+  "intro": "cards/intro_h.png",
+  "outro": "cards/outro_h.png",
+  "scenes": [
+    {
+      "narration": "你是不是也收藏过很多免费大模型API的合集？但等你真去用的时候，会发现一半已经开始收费，还有一半连key都申请不下来。我花了几天时间，把全网主流的免费AI接口真实请求测了一遍，今天把结论和避坑点一次讲清楚。",
+      "shot": "sources/openrouter_free.png",
+      "caption": "免费API合集，为什么一半都用不了？"
+    },
+    {
+      "narration": "先说为什么那些合集不靠谱。人工维护的列表更新很慢，比如GitHub Models在2026年已经全面下线，很多教程还在推荐；Cerebras现在要绑定信用卡才给额度，早就不是纯白嫖；还有不少所谓免费，其实只是一次性赠送，用完就没了。所以静态列表注定会过期。",
+      "shot": "sources/gemini_pricing.png",
+      "caption": "静态列表会过期：下线、绑卡、一次性额度"
+    },
+    {
+      "narration": "我的做法是写了一个脚本，每天对这些平台真实发请求，自动判断谁还活着。先看第一个，OpenRouter。它的模型目录里，这些模型名字直接带free后缀，价格明码标价零美元，一个key就能调用十几家的免费模型。",
+      "shot": "sources/openrouter_free.png",
+      "caption": "OpenRouter：一个Key，十几个 free 模型"
+    },
+    {
+      "narration": "第二个是英伟达的NIM平台。官网白纸黑字写着免费推理，DeepSeek、Nemotron这些模型都能直接调，一个账号的key可以访问四十多个免费端点，甚至还有五千五百亿参数的超大模型。",
+      "shot": "sources/nvidia_free.png",
+      "caption": "NVIDIA NIM：Free inference，45个免费端点"
+    },
+    {
+      "narration": "第三个是谷歌Gemini。它的定价页明确分了免费层，免费输入输出token都不收费，额度也是这几家里最大的，日常主力用它最划算。要注意免费层的对话会被谷歌用于改进产品，敏感内容别往里发。",
+      "shot": "sources/gemini_pricing.png",
+      "caption": "Gemini：免费层额度最大，注意数据会被用于训练"
+    },
+    {
+      "narration": "第四个是Cloudflare的Workers AI。官方定价页写得很清楚，每天免费送一万个neuron额度，按天重置，而且它不止有文本，还免费提供语音合成、语音识别和图片模型，想做配音或者画图也能用。",
+      "shot": "sources/cloudflare_pricing.png",
+      "caption": "Cloudflare：每天1万额度，还送语音和图片"
+    },
+    {
+      "narration": "光看官网不够，我真的发请求跑了一遍。这是终端的真实记录，统一接口连续调用四次，全部返回成功，延迟从几十到几百毫秒，费用一栏全是零；再直连英伟达和OpenRouter的官方端点，同样成功，没有任何扣费。",
+      "shot": "proof/proof_terminal.png",
+      "caption": "真实调用实测：HTTP 200，cost 全部 $0"
+    },
+    {
+      "narration": "为了让它长期稳定，我用开源的LiteLLM把这几家聚合成了一个接口。哪个平台限流或者超时，就自动切换到下一家，上层程序完全无感，等于给免费额度上了个保险。",
+      "shot": "site_full.png",
+      "caption": "LiteLLM 聚合：限流自动切换"
+    },
+    {
+      "narration": "最后我把整套东西做成了一个每天自动更新的开源项目，网站上每个平台都有实测状态灯、免费额度、注册门槛和接口地址，新出的免费平台会自动发现，死掉的会标红提醒。所有内容免费开放，链接放在简介和评论区。",
+      "shot": "site_full.png",
+      "caption": "每日自动实测的开源榜单，免费开放"
+    },
+    {
+      "narration": "总结一下：想要一个key通吃就用OpenRouter，追求额度用Gemini，要超大模型用英伟达，需要语音图片用Cloudflare。记住一个原则，一个人一个账号，别批量注册，也别发隐私数据。觉得有用点个关注，我会持续更新这个实测榜，下期专门测这几家到底哪家最稳。",
+      "shot": "site_full.png",
+      "caption": "收藏关注，下期测谁最稳"
+    }
+  ]
+}

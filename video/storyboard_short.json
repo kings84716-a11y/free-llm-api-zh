@@ -1,0 +1,32 @@
+{
+  "title": "免费AI API实测榜-短视频",
+  "voice": "zh-CN-YunxiNeural",
+  "rate": "+8%",
+  "scenes": [
+    {
+      "narration": "别再抄网上那些免费API合集了，我实测发现，一半都已经失效或者偷偷收费了。",
+      "shot": "mobile_fold.png",
+      "caption": "免费API合集一半已失效？"
+    },
+    {
+      "narration": "我做了个网站，每天用真实请求实测全网免费大模型接口。绿色是我真跑通过的，蓝色注册就能用，红色是已经挂掉的。",
+      "shot": "mobile_fold.png",
+      "caption": "每天实测 谁还活着一目了然"
+    },
+    {
+      "narration": "记住这几个纯白嫖、不要信用卡的：Groq每天一千次，Gemini额度最大，OpenRouter一个key白嫖十几个模型，NVIDIA一个key能调四十五个，Cloudflare每天一万次还送语音和图片。",
+      "shot": "mobile_fold.png",
+      "caption": "5家不要信用卡的免费API"
+    },
+    {
+      "narration": "注册链接和接口地址网站上都有，我还开源了一键配置，多家免费模型自动切换，挂了都不影响你用。",
+      "shot": "mobile_fold.png",
+      "caption": "开源一键配置 自动切换"
+    },
+    {
+      "narration": "完全免费，每天自动更新，链接在评论区，收藏起来慢慢薅。",
+      "shot": "mobile_fold.png",
+      "caption": "免费开源 每日更新"
+    }
+  ]
+}
