@@ -29,10 +29,23 @@
 ```bash
 # 无需任何 Key 即可探活；有 Key 会做真实推理验证
 python3 scripts/probe.py        # 实测 -> data/
+python3 scripts/discover.py     # 自动发现新免费平台/新模型 -> data/
 python3 scripts/build_site.py   # 渲染 -> site/index.html
 # 或一键
 bash scripts/run_daily.sh
 ```
+
+## 一键接入到你的应用
+
+```bash
+bash setup.sh                   # 交互式填你自己的 Key（只存本地 keys.env）
+python3 scripts/gen_client_config.py   # 生成 Cherry Studio / OpenAI SDK / LiteLLM 配置
+```
+
+生成的配置在 `clients/`：
+- `cherry_studio.md` — Cherry Studio / NextChat 等图形客户端怎么填
+- `openai_sdk.example.py` — Python OpenAI SDK 直接调用示例
+- `litellm.example.yaml` — 自建聚合网关，多家免费模型 429 自动切换
 
 ### 可选：配置你自己的 Key 做真实验证
 

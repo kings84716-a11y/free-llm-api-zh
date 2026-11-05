@@ -86,6 +86,32 @@ cl_rows = "".join(
 dep_rows = "".join(
     f'<li><b>{esc(x.get("name"))}</b> — {esc(x.get("reason"))}</li>' for x in deprecated)
 
+# 延迟排行榜（只排在线且有延迟的，升序）
+lat_sorted = sorted(
+    [p for p in providers if isinstance(p.get("latency_ms"), (int, float)) and p.get("today_status") != "down"],
+    key=lambda x: x["latency_ms"])
+lat_rows = "".join(
+    f'<tr><td>{i+1}</td><td>{esc(p.get("name"))}</td><td><b>{int(p["latency_ms"])}ms</b></td>'
+    f'<td>{STATUS.get(p.get("today_status"),STATUS["unknown"])[0]}</td></tr>'
+    for i, p in enumerate(lat_sorted[:10]))
+
+# 场景化推荐（按实测状态挑代表，硬编码场景映射到平台 id）
+def find_pid(pid):
+    for p in providers:
+        if p.get("id") == pid:
+            st = STATUS.get(p.get("today_status"), STATUS["unknown"])
+            return f'{st[0]} <a href="{esc(p.get("register"))}" target="_blank" rel="noopener">{esc(p.get("name"))}</a>'
+    return "—"
+scenes = [
+    ("⚡ 追求最快响应", "groq"),
+    ("🧠 额度最大/日常主力", "gemini"),
+    ("🖥️ 超大模型/复杂任务", "nvidia"),
+    ("🆓 不想注册太多账号", "openrouter"),
+    ("🎙️ 语音/图片多模态", "cloudflare"),
+    ("🇨🇳 国内直连免翻墙", "siliconflow"),
+]
+scene_rows = "".join(f'<tr><td>{s}</td><td>{find_pid(pid)}</td></tr>' for s, pid in scenes)
+
 nv = summ.get("alive_verified",0); na = summ.get("alive",0); naa = summ.get("alive_auth",0); nd = summ.get("down",0)
 
 html = f"""<!DOCTYPE html>
@@ -144,10 +170,13 @@ code{{font-family:ui-monospace,Menlo,monospace;font-size:12px}}
   <div class="stat"><b>{summ.get('openrouter_free_count',len(orm))}</b><span>免费模型</span></div>
 </div>
 <div class="legend">🟢 配 Key 真实推理通过 &nbsp;·&nbsp; 🔵 端点在线（注册拿 Key 即用）&nbsp;·&nbsp; 🔴 当前无法访问</div>
+<h2>🎯 按场景选（实测可用优先）</h2>
+<table><thead><tr><th>你的需求</th><th>推荐平台</th></tr></thead><tbody>{scene_rows}</tbody></table>
 <h2>平台榜单</h2>
 <div class="grid">{''.join(cards)}</div>
 {('<h2>🆕 新发现的免费候选平台（每日自动扫描 · 待核实收录）</h2><table><thead><tr><th>平台</th><th>免费模型数</th><th>示例</th></tr></thead><tbody>'+disc_rows+'</tbody></table>') if disc_rows else ''}
 {('<h2>已失效 / 改收费（别再浪费时间）</h2><ul class="dep">'+dep_rows+'</ul>') if dep_rows else ''}
+{('<h2>⚡ 响应速度排行榜（实测延迟 Top10）</h2><table><thead><tr><th>#</th><th>平台</th><th>延迟</th><th>状态</th></tr></thead><tbody>'+lat_rows+'</tbody></table>') if lat_rows else ''}
 <h2>OpenRouter 免费模型（一个 Key 通用）</h2>
 <table><thead><tr><th>模型</th><th>上下文</th><th>模态</th></tr></thead><tbody>{or_rows}</tbody></table>
 {('<h2>当前健康的免费模型 · ClawLabs 探活</h2><table><thead><tr><th>模型</th><th>上下文</th><th>限速</th><th>数据训练</th></tr></thead><tbody>'+cl_rows+'</tbody></table>') if cl_rows else ''}

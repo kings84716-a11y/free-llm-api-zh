@@ -1,0 +1,35 @@
+# 一键自建免费聚合网关：pip install 'litellm[proxy]'
+# litellm --config litellm.example.yaml --port 4199
+# 之后所有客户端统一连 http://127.0.0.1:4199，模型名 free-chat，某家挂了自动切下一家
+model_list:
+  - model_name: free-chat
+    litellm_params:
+      model: openai/gemini-flash-lite-latest
+      api_base: https://generativelanguage.googleapis.com/v1beta/openai
+      api_key: os.environ/GEMINI_API_KEY
+  - model_name: free-chat
+    litellm_params:
+      model: groq/qwen/qwen3.8-27b
+      api_key: os.environ/GROQ_API_KEY
+  - model_name: free-chat
+    litellm_params:
+      model: openai/nvidia/nemotron-3.5-bolt-e4b
+      api_base: https://integrate.api.nvidia.com/v1
+      api_key: os.environ/NVIDIA_API_KEY
+  - model_name: free-chat
+    litellm_params:
+      model: openrouter/cohere/north-mini-code:free
+      api_key: os.environ/OPENROUTER_API_KEY
+litellm_settings:
+  drop_params: true
+  num_retries: 3
+  request_timeout: 30
+router_settings:
+  routing_strategy: latency-based-routing
+  num_retries: 3
+  timeout: 30
+  allowed_fails: 2
+  cooldown_time: 120
+general_settings:
+  dangerously_permit_weak_or_unset_master_key: true
+  disable_spend_logs: true
