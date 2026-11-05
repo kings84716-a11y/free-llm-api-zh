@@ -31,10 +31,28 @@ EXCLUDE_KEYWORDS = ("-coding-plan","-token-plan","-coding","orcarouter","aihubmi
                     "gitlab","lmstudio","atomic-chat","agnes","inferx","kenari","pendra",
                     "commandcode","meganova","lynkr","zeldoc","llmtr","nova-2","poolside",
                     "regolo","cortecs","ovhcloud","hetzner","infomaniak","iteracompute",
-                    "digitalocean","qiniu","sensenova","reflection","sambanova-coding")
+                    "digitalocean","qiniu","sensenova","reflection","sambanova-coding",
+                    "kimi-code-plan-cn","kimi-code-plan-global","poe","novita-ai")
 
 def is_excluded(pid):
     return any(k in pid for k in EXCLUDE_KEYWORDS)
+
+# models.dev 的 provider id 与本项目 providers.json id 的别名归一
+# 命中别名说明是已收录平台，不算“新发现”
+ALIAS_TO_KNOWN = {
+    "zhipuai": "bigmodel", "zai": "bigmodel",
+    "siliconflow-cn": "siliconflow",
+    "google": "gemini",
+    "tencent-tokenhub": "tencent",
+    "alibaba-cn": "dashscope",
+    "huggingface": "huggingface",
+    "cloudflare-ai-gateway": "cloudflare",
+    "novita-ai": "novita",
+    "kimi-code-plan-cn": "kimi", "kimi-code-plan-global": "kimi",
+}
+# 已知但当前榜单未单列的大厂（不是新独立白嫖平台，降权不推）
+KNOWN_VENDOR_NOISE = ("google","tencent-tokenhub","alibaba-cn","huggingface",
+                      "cloudflare-ai-gateway","tokenrouter","nova")
 
 def main():
     # 已收录 provider id（来自 providers.json）
@@ -50,6 +68,9 @@ def main():
     if md:
         for pid, info in md.items():
             if not isinstance(info, dict) or is_excluded(pid) or pid in known:
+                continue
+            # 别名归一：命中已收录平台或已知大厂噪音，跳过
+            if ALIAS_TO_KNOWN.get(pid) in known or pid in KNOWN_VENDOR_NOISE:
                 continue
             free_models = []
             for mid, m in info.get("models", {}).items():

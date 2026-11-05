@@ -188,7 +188,10 @@ def pick_model(p, key):
 
 
 def is_reasoning(model_id):
-    return any(h in model_id.lower() for h in REASON_HINTS)
+    # 额外把已验证为推理型/小token不出正文的免费模型纳入，给足 max_tokens
+    extra = ("cohere/north-mini-code", "nemotron-3", "qwen3", "minimax-m3")
+    low = model_id.lower()
+    return any(h in low for h in REASON_HINTS) or any(h in low for h in extra)
 
 
 def verify_cloudflare(p, keys):
@@ -227,18 +230,20 @@ def verify_inference(p, keys):
     if not model:
         return {"ok": False, "model": None, "latency_ms": None,
                 "detail": "未能从 /models 选取可测对话模型"}
-    max_tokens = 200 if is_reasoning(model) else 8
+    max_tokens = 200 if is_reasoning(model) else 32
     payload = json.dumps({
         "model": model,
         "messages": [{"role": "user", "content": "hi"}],
         "max_tokens": max_tokens,
         "stream": False,
     }).encode()
-    status, body, lat, err = http_request(
-        p["base_url"].rstrip("/") + "/chat/completions",
-        headers={"Authorization": f"Bearer {key}",
-                 "Content-Type": "application/json"},
-        data=payload, timeout=TIMEOUT_INFER)
+    url = p["base_url"].rstrip("/") + "/chat/completions"
+    hdr = {"Authorization": f"Bearer {key}", "Content-Type": "application/json"}
+    # 偶发 403/429/5xx（CF 风控/限流）退避重试一次，避免误判
+    status, body, lat, err = http_request(url, headers=hdr, data=payload, timeout=TIMEOUT_INFER)
+    if status in (403, 429, 500, 502, 503):
+        time.sleep(2.5)
+        status, body, lat, err = http_request(url, headers=hdr, data=payload, timeout=TIMEOUT_INFER)
     if err:
         return {"ok": False, "model": model, "latency_ms": lat, "detail": err[:160]}
     if status != 200:

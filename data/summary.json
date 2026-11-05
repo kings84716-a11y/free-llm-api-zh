@@ -1,9 +1,9 @@
 {
   "date": "2026-11-05",
-  "checked_at": "2026-11-05T09:00:02+08:00",
+  "checked_at": "2026-11-05T13:47:35+08:00",
   "providers_total": 17,
-  "alive_verified": 4,
-  "alive": 3,
+  "alive_verified": 5,
+  "alive": 2,
   "alive_auth": 8,
   "down": 2,
   "unknown": 0,
