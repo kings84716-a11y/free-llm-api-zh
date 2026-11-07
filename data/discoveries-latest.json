@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-06T09:00:22+0800",
+ "checked_at": "2026-11-07T09:00:24+0800",
  "new_providers": [],
  "new_openrouter_models": [],
  "sources_status": {
@@ -8,6 +8,6 @@
   "clawlabs": "ok"
  },
  "openrouter_free_total": 16,
- "clawlabs_total": 16,
- "clawlabs_healthy": 2
+ "clawlabs_total": 15,
+ "clawlabs_healthy": 4
 }

@@ -1,6 +1,6 @@
 {
   "fetched": true,
-  "checked_at": "2026-11-06T09:00:01+08:00",
+  "checked_at": "2026-11-07T09:00:01+08:00",
   "count": 16,
   "models": [
     {
@@ -46,6 +46,12 @@
       "modality": "text"
     },
     {
+      "id": "liquid/lfm-3-1.7b:free",
+      "name": "LiquidAI: LFM3-1.7B (free)",
+      "context": 262144,
+      "modality": "text"
+    },
+    {
       "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
       "name": "NVIDIA: Nemotron 3 Nano Omni (free)",
       "context": 256000,
@@ -56,12 +62,6 @@
       "name": "NVIDIA: Nemotron 3 Ultra (free)",
       "context": 1000000,
       "modality": "text"
-    },
-    {
-      "id": "nvidia/nemotron-3.5-content-safety:free",
-      "name": "NVIDIA: Nemotron 3.5 Content Safety (free)",
-      "context": 128000,
-      "modality": "text,image"
     },
     {
       "id": "nvidia/nemotron-3.5-lightning:free",

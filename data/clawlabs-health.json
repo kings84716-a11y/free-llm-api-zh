@@ -1,8 +1,8 @@
 {
   "fetched": true,
-  "source_updated_at": "2026-11-05T11:58:36.849Z",
-  "checked_at": "2026-11-06T09:00:01+08:00",
-  "count": 16,
+  "source_updated_at": "2026-11-06T11:54:48.354Z",
+  "checked_at": "2026-11-07T09:00:01+08:00",
+  "count": 15,
   "models": [
     {
       "id": "cohere/north-mini-code:free",
@@ -22,7 +22,7 @@
     },
     {
       "id": "google/gemma-4-26b-a4b-it:free",
-      "health": "sick",
+      "health": "ok",
       "rate": "20 RPM · 50 RPD",
       "data_use": "no-training",
       "context_window": 262144,
@@ -30,7 +30,7 @@
     },
     {
       "id": "google/gemma-4-31b-it:free",
-      "health": "sick",
+      "health": "ok",
       "rate": "20 RPM · 50 RPD",
       "data_use": "no-training",
       "context_window": 262144,
@@ -75,14 +75,6 @@
       "data_use": "may-train",
       "context_window": 1000000,
       "modalities": "text"
-    },
-    {
-      "id": "nvidia/nemotron-3.5-content-safety:free",
-      "health": "",
-      "rate": "20 RPM · 50 RPD",
-      "data_use": "may-train",
-      "context_window": 128000,
-      "modalities": "text,image"
     },
     {
       "id": "nvidia/nemotron-3.5-lightning:free",
