@@ -1,12 +1,12 @@
 {
   "fetched": true,
-  "source_updated_at": "2026-11-06T11:54:48.354Z",
-  "checked_at": "2026-11-07T09:00:01+08:00",
-  "count": 15,
+  "source_updated_at": "2026-11-07T10:55:35.389Z",
+  "checked_at": "2026-11-08T09:00:02+08:00",
+  "count": 16,
   "models": [
     {
       "id": "cohere/north-mini-code:free",
-      "health": "ok",
+      "health": "sick",
       "rate": "20 RPM · 50 RPD",
       "data_use": "no-training",
       "context_window": 256000,
@@ -14,7 +14,7 @@
     },
     {
       "id": "dots-studio/dots-3-note-preview:free",
-      "health": "sick",
+      "health": "ok",
       "rate": "20 RPM · 50 RPD",
       "data_use": "no-training",
       "context_window": 512000,
@@ -22,7 +22,7 @@
     },
     {
       "id": "google/gemma-4-26b-a4b-it:free",
-      "health": "ok",
+      "health": "sick",
       "rate": "20 RPM · 50 RPD",
       "data_use": "no-training",
       "context_window": 262144,
@@ -58,6 +58,14 @@
       "rate": "20 RPM · 50 RPD",
       "data_use": "may-train",
       "context_window": 65536,
+      "modalities": "text"
+    },
+    {
+      "id": "liquid/lfm-3-1.7b:free",
+      "health": "",
+      "rate": "20 RPM · 50 RPD",
+      "data_use": "may-train",
+      "context_window": 262144,
       "modalities": "text"
     },
     {
@@ -102,7 +110,7 @@
     },
     {
       "id": "recursive/flint-v1.0:free",
-      "health": "sick",
+      "health": "ok",
       "rate": "20 RPM · 50 RPD",
       "data_use": "no-training",
       "context_window": 262144,
@@ -118,7 +126,7 @@
     },
     {
       "id": "xingchen-agi/xing4.0-29b-a4b:free",
-      "health": "ok",
+      "health": "sick",
       "rate": "20 RPM · 50 RPD",
       "data_use": "no-training",
       "context_window": 262144,
