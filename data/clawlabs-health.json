@@ -1,12 +1,12 @@
 {
   "fetched": true,
-  "source_updated_at": "2026-11-07T10:55:35.389Z",
-  "checked_at": "2026-11-08T09:00:02+08:00",
+  "source_updated_at": "2026-11-08T11:07:11.366Z",
+  "checked_at": "2026-11-09T09:00:03+08:00",
   "count": 16,
   "models": [
     {
       "id": "cohere/north-mini-code:free",
-      "health": "sick",
+      "health": "ok",
       "rate": "20 RPM · 50 RPD",
       "data_use": "no-training",
       "context_window": 256000,
@@ -22,7 +22,7 @@
     },
     {
       "id": "google/gemma-4-26b-a4b-it:free",
-      "health": "sick",
+      "health": "ok",
       "rate": "20 RPM · 50 RPD",
       "data_use": "no-training",
       "context_window": 262144,
@@ -126,7 +126,7 @@
     },
     {
       "id": "xingchen-agi/xing4.0-29b-a4b:free",
-      "health": "sick",
+      "health": "ok",
       "rate": "20 RPM · 50 RPD",
       "data_use": "no-training",
       "context_window": 262144,
