@@ -1,6 +1,6 @@
 {
   "fetched": true,
-  "checked_at": "2026-11-09T09:00:03+08:00",
+  "checked_at": "2026-11-10T09:00:02+08:00",
   "count": 16,
   "models": [
     {
@@ -88,10 +88,10 @@
       "modality": "text"
     },
     {
-      "id": "stealth/crouton-alpha",
-      "name": "Crouton Alpha",
+      "id": "thinkingmachines/inkling-2-small:free",
+      "name": "Thinking Machines: Inkling 2 Small (free)",
       "context": 1048576,
-      "modality": "text,image,video,file,audio"
+      "modality": "text,image"
     },
     {
       "id": "xingchen-agi/xing4.0-29b-a4b:free",
