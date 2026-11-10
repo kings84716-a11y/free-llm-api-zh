@@ -1,9 +1,9 @@
 {
-  "checked_at": "2026-11-10T09:00:02+08:00",
+  "checked_at": "2026-11-10T15:43:10+08:00",
   "date": "2026-11-10",
   "summary": {
     "date": "2026-11-10",
-    "checked_at": "2026-11-10T09:00:02+08:00",
+    "checked_at": "2026-11-10T15:43:10+08:00",
     "providers_total": 17,
     "alive_verified": 5,
     "alive": 2,
@@ -39,16 +39,16 @@
       "gotcha": "免费共享池常429，要fallback；实测时自动选一个 :free 模型",
       "privacy": "部分模型 may-train，敏感数据勿用",
       "base_url_note": null,
-      "checked_at": "2026-11-10T09:00:02+08:00",
+      "checked_at": "2026-11-10T15:43:10+08:00",
       "today_status": "alive_verified",
       "http_status": 200,
-      "latency_ms": 1170,
+      "latency_ms": 610,
       "alive_note": "GET /models 200",
       "verified": {
         "ok": true,
-        "model": "gen-1794272403-q8B5E1s9Dde3hnar8kwc",
-        "latency_ms": 1170,
-        "detail": "返回正文: Hello! 👋 How can I assist you with today",
+        "model": "gen-1794296592-4fo2outNl0JMxMmvf7cU",
+        "latency_ms": 610,
+        "detail": "返回正文: Hello! How can I assist you with today?",
         "usage": {
           "prompt": 1,
           "completion": 44
@@ -71,15 +71,15 @@
       "gotcha": "协议禁止多账号；部分地区直连403需走代理",
       "privacy": "看协议",
       "base_url_note": null,
-      "checked_at": "2026-11-10T09:00:02+08:00",
+      "checked_at": "2026-11-10T15:43:10+08:00",
       "today_status": "alive_auth",
       "http_status": 401,
-      "latency_ms": 114,
+      "latency_ms": 59,
       "alive_note": "GET /models 401（端点在线，要求鉴权）",
       "verified": {
         "ok": false,
         "model": "qwen/qwen3.8-27b",
-        "latency_ms": 41,
+        "latency_ms": 46,
         "detail": "HTTP 403: error code: 1010\n"
       }
     },
@@ -99,15 +99,15 @@
       "gotcha": "非标准OpenAI端点，需 CF_ACCOUNT_ID，引擎用 CF 原生 /ai/run 实测；可用LiteLLM转换",
       "privacy": "",
       "base_url_note": "REST 原生端点，路径含 account_id，无 key 无法探活",
-      "checked_at": "2026-11-10T09:00:02+08:00",
+      "checked_at": "2026-11-10T15:43:10+08:00",
       "today_status": "alive_verified",
       "http_status": null,
-      "latency_ms": 323,
+      "latency_ms": 169,
       "alive_note": "非标准端点(需 account_id)，配 key 后直接实测推理",
       "verified": {
         "ok": true,
         "model": "@cf/meta/llama-3.1-8b-instruct",
-        "latency_ms": 323,
+        "latency_ms": 169,
         "detail": "CF 原生 /ai/run 200"
       }
     },
@@ -127,15 +127,15 @@
       "gotcha": "Google反批量最强，一账号；地区限制；无key裸探 /models 会403",
       "privacy": "免费层数据可能用于训练，勿放敏感内容",
       "base_url_note": null,
-      "checked_at": "2026-11-10T09:00:02+08:00",
+      "checked_at": "2026-11-10T15:43:10+08:00",
       "today_status": "alive_verified",
       "http_status": 404,
-      "latency_ms": 780,
+      "latency_ms": 6488,
       "alive_note": "/models->404",
       "verified": {
         "ok": true,
-        "model": "m2zyarzJGeitqtsP6IXAyQQ",
-        "latency_ms": 780,
+        "model": "Fcvyao6WKo_rz7IPkZytyQU",
+        "latency_ms": 6488,
         "detail": "返回正文: Hello! How can I help you today?",
         "usage": {
           "prompt": 2,
@@ -159,11 +159,11 @@
       "gotcha": "Free Trial定位，政策可能变",
       "privacy": "",
       "base_url_note": null,
-      "checked_at": "2026-11-10T09:00:02+08:00",
+      "checked_at": "2026-11-10T15:43:10+08:00",
       "today_status": "alive_auth",
-      "http_status": 429,
-      "latency_ms": 47,
-      "alive_note": "GET /models 429"
+      "http_status": 403,
+      "latency_ms": 88,
+      "alive_note": "GET /models 403（端点在线，要求鉴权）"
     },
     {
       "id": "modelscope",
@@ -181,10 +181,10 @@
       "gotcha": "国内直连快",
       "privacy": "国内实名",
       "base_url_note": null,
-      "checked_at": "2026-11-10T09:00:02+08:00",
+      "checked_at": "2026-11-10T15:43:10+08:00",
       "today_status": "alive",
       "http_status": 200,
-      "latency_ms": 708,
+      "latency_ms": 931,
       "alive_note": "GET /models 200"
     },
     {
@@ -203,10 +203,10 @@
       "gotcha": "官方调试定位，可能随时撤；端点域名可能随区域变化",
       "privacy": "",
       "base_url_note": null,
-      "checked_at": "2026-11-10T09:00:02+08:00",
+      "checked_at": "2026-11-10T15:43:10+08:00",
       "today_status": "down",
       "http_status": null,
-      "latency_ms": 11,
+      "latency_ms": 8,
       "alive_note": "URLError: <urlopen error [Errno -5] No address associated with hostname>"
     },
     {
@@ -225,10 +225,10 @@
       "gotcha": "国内直连，部分模型收费要看标价",
       "privacy": "国内实名",
       "base_url_note": null,
-      "checked_at": "2026-11-10T09:00:02+08:00",
+      "checked_at": "2026-11-10T15:43:10+08:00",
       "today_status": "alive_auth",
       "http_status": 401,
-      "latency_ms": 517,
+      "latency_ms": 920,
       "alive_note": "GET /models 401（端点在线，要求鉴权）"
     },
     {
@@ -247,7 +247,7 @@
       "gotcha": "公测限时免费，付费档上线后政策可能变；最多20个API Key",
       "privacy": "看平台协议",
       "base_url_note": null,
-      "checked_at": "2026-11-10T09:00:02+08:00",
+      "checked_at": "2026-11-10T15:43:10+08:00",
       "today_status": "down",
       "http_status": 404,
       "latency_ms": null,
@@ -269,10 +269,10 @@
       "gotcha": "免费额度官方未公示具体数额；限流返回429需指数退避",
       "privacy": "看平台协议",
       "base_url_note": null,
-      "checked_at": "2026-11-10T09:00:02+08:00",
+      "checked_at": "2026-11-10T15:43:10+08:00",
       "today_status": "alive_auth",
       "http_status": 401,
-      "latency_ms": 989,
+      "latency_ms": 276,
       "alive_note": "GET /models 401（端点在线，要求鉴权）"
     },
     {
@@ -291,15 +291,15 @@
       "gotcha": "要手机验证",
       "privacy": "",
       "base_url_note": null,
-      "checked_at": "2026-11-10T09:00:02+08:00",
+      "checked_at": "2026-11-10T15:43:10+08:00",
       "today_status": "alive_verified",
       "http_status": 200,
-      "latency_ms": 402,
+      "latency_ms": 429,
       "alive_note": "GET /models 200",
       "verified": {
         "ok": true,
-        "model": "chatcmpl-36629b3d-37ae-4d5c-811d-181a590d0cb1",
-        "latency_ms": 402,
+        "model": "chatcmpl-4549c298-98f7-4f2c-ac81-46df4ea0e4fc",
+        "latency_ms": 429,
         "detail": "返回正文: Hi! How can I help you today? 😊",
         "usage": {
           "prompt": 10,
@@ -323,10 +323,10 @@
       "gotcha": "月额度小",
       "privacy": "",
       "base_url_note": null,
-      "checked_at": "2026-11-10T09:00:02+08:00",
+      "checked_at": "2026-11-10T15:43:10+08:00",
       "today_status": "alive_auth",
       "http_status": 401,
-      "latency_ms": 94,
+      "latency_ms": 82,
       "alive_note": "GET /models 401（端点在线，要求鉴权）"
     },
     {
@@ -345,10 +345,10 @@
       "gotcha": "免费档基本不够用",
       "privacy": "",
       "base_url_note": null,
-      "checked_at": "2026-11-10T09:00:02+08:00",
+      "checked_at": "2026-11-10T15:43:10+08:00",
       "today_status": "alive",
       "http_status": 200,
-      "latency_ms": 88,
+      "latency_ms": 48,
       "alive_note": "GET /models 200"
     },
     {
@@ -367,10 +367,10 @@
       "gotcha": "要手机+数据训练授权",
       "privacy": "免费层数据被训练",
       "base_url_note": null,
-      "checked_at": "2026-11-10T09:00:02+08:00",
+      "checked_at": "2026-11-10T15:43:10+08:00",
       "today_status": "alive_auth",
       "http_status": 401,
-      "latency_ms": 205,
+      "latency_ms": 191,
       "alive_note": "GET /models 401（端点在线，要求鉴权）"
     },
     {
@@ -389,10 +389,10 @@
       "gotcha": "赠送额度多为一次性",
       "privacy": "国内实名",
       "base_url_note": null,
-      "checked_at": "2026-11-10T09:00:02+08:00",
+      "checked_at": "2026-11-10T15:43:10+08:00",
       "today_status": "alive_auth",
       "http_status": 401,
-      "latency_ms": 519,
+      "latency_ms": 650,
       "alive_note": "GET /models 401（端点在线，要求鉴权）"
     },
     {
@@ -411,10 +411,10 @@
       "gotcha": "要身份证实名",
       "privacy": "国内实名",
       "base_url_note": null,
-      "checked_at": "2026-11-10T09:00:02+08:00",
+      "checked_at": "2026-11-10T15:43:10+08:00",
       "today_status": "alive_auth",
       "http_status": 401,
-      "latency_ms": 244,
+      "latency_ms": 245,
       "alive_note": "GET /models 401（端点在线，要求鉴权）"
     },
     {
@@ -433,15 +433,15 @@
       "gotcha": "无SLA，玩具/备用，不能当生产依赖；响应可能较慢",
       "privacy": "无保障",
       "base_url_note": null,
-      "checked_at": "2026-11-10T09:00:02+08:00",
+      "checked_at": "2026-11-10T15:43:10+08:00",
       "today_status": "alive_verified",
       "http_status": 200,
-      "latency_ms": 334,
+      "latency_ms": 243,
       "alive_note": "GET /models 200",
       "verified": {
         "ok": true,
         "model": "pllns_7ebbf8f9e4158438e3677512bc2066e5",
-        "latency_ms": 334,
+        "latency_ms": 243,
         "detail": "返回正文: Hey there! How's your day going? Anythin",
         "usage": {
           "prompt": 309,
