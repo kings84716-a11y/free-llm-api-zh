@@ -1,7 +1,7 @@
 {
   "fetched": true,
-  "source_updated_at": "2026-11-09T12:38:34.177Z",
-  "checked_at": "2026-11-10T15:43:10+08:00",
+  "source_updated_at": "2026-11-10T12:18:03.355Z",
+  "checked_at": "2026-11-11T09:00:02+08:00",
   "count": 16,
   "models": [
     {
@@ -117,12 +117,12 @@
       "modalities": "text"
     },
     {
-      "id": "stealth/crouton-alpha",
+      "id": "thinkingmachines/inkling-2-small:free",
       "health": "",
       "rate": "20 RPM · 50 RPD",
-      "data_use": null,
+      "data_use": "may-train",
       "context_window": 1048576,
-      "modalities": "text,image,video,file,audio"
+      "modalities": "text,image"
     },
     {
       "id": "xingchen-agi/xing4.0-29b-a4b:free",

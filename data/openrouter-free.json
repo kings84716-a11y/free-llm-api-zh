@@ -1,7 +1,7 @@
 {
   "fetched": true,
-  "checked_at": "2026-11-10T15:43:10+08:00",
-  "count": 16,
+  "checked_at": "2026-11-11T09:00:02+08:00",
+  "count": 15,
   "models": [
     {
       "id": "cohere/north-mini-code:free",
@@ -92,12 +92,6 @@
       "name": "Thinking Machines: Inkling 2 Small (free)",
       "context": 1048576,
       "modality": "text,image"
-    },
-    {
-      "id": "xingchen-agi/xing4.0-29b-a4b:free",
-      "name": "XingChen: Xing4.0 29B A4B (free)",
-      "context": 262144,
-      "modality": "text"
     }
   ]
 }
