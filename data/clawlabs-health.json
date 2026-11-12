@@ -1,9 +1,17 @@
 {
   "fetched": true,
-  "source_updated_at": "2026-11-10T12:18:03.355Z",
-  "checked_at": "2026-11-11T09:00:02+08:00",
+  "source_updated_at": "2026-11-11T11:43:58.006Z",
+  "checked_at": "2026-11-12T09:00:02+08:00",
   "count": 16,
   "models": [
+    {
+      "id": "baidu/ernie-5.5-flash-preview:free",
+      "health": "",
+      "rate": "20 RPM · 50 RPD",
+      "data_use": null,
+      "context_window": 1024000,
+      "modalities": "text"
+    },
     {
       "id": "cohere/north-mini-code:free",
       "health": "ok",
@@ -22,7 +30,7 @@
     },
     {
       "id": "google/gemma-4-26b-a4b-it:free",
-      "health": "ok",
+      "health": "sick",
       "rate": "20 RPM · 50 RPD",
       "data_use": "no-training",
       "context_window": 262144,
@@ -123,14 +131,6 @@
       "data_use": "may-train",
       "context_window": 1048576,
       "modalities": "text,image"
-    },
-    {
-      "id": "xingchen-agi/xing4.0-29b-a4b:free",
-      "health": "ok",
-      "rate": "20 RPM · 50 RPD",
-      "data_use": "no-training",
-      "context_window": 262144,
-      "modalities": "text"
     }
   ]
 }

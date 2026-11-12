@@ -1,8 +1,14 @@
 {
   "fetched": true,
-  "checked_at": "2026-11-11T09:00:02+08:00",
-  "count": 15,
+  "checked_at": "2026-11-12T09:00:02+08:00",
+  "count": 16,
   "models": [
+    {
+      "id": "baidu/ernie-5.5-flash-preview:free",
+      "name": "Baidu: ERNIE-5.5-Flash-Preview (free)",
+      "context": 1024000,
+      "modality": "text"
+    },
     {
       "id": "cohere/north-mini-code:free",
       "name": "Cohere: North Mini Code (free)",
