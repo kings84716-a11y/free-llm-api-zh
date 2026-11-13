@@ -1,0 +1,13 @@
+{
+ "checked_at": "2026-11-13T09:00:21+0800",
+ "new_providers": [],
+ "new_openrouter_models": [],
+ "sources_status": {
+  "models.dev": "ok",
+  "openrouter": "ok",
+  "clawlabs": "ok"
+ },
+ "openrouter_free_total": 18,
+ "clawlabs_total": 16,
+ "clawlabs_healthy": 5
+}

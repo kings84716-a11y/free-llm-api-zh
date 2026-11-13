@@ -1,7 +1,7 @@
 {
   "fetched": true,
-  "source_updated_at": "2026-11-11T11:43:58.006Z",
-  "checked_at": "2026-11-12T09:00:02+08:00",
+  "source_updated_at": "2026-11-12T12:20:40.563Z",
+  "checked_at": "2026-11-13T09:00:02+08:00",
   "count": 16,
   "models": [
     {
@@ -30,7 +30,7 @@
     },
     {
       "id": "google/gemma-4-26b-a4b-it:free",
-      "health": "sick",
+      "health": "ok",
       "rate": "20 RPM · 50 RPD",
       "data_use": "no-training",
       "context_window": 262144,
