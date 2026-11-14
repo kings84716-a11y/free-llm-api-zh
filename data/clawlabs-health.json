@@ -1,8 +1,8 @@
 {
   "fetched": true,
-  "source_updated_at": "2026-11-12T12:20:40.563Z",
-  "checked_at": "2026-11-13T09:00:02+08:00",
-  "count": 16,
+  "source_updated_at": "2026-11-13T11:57:38.747Z",
+  "checked_at": "2026-11-14T09:00:01+08:00",
+  "count": 17,
   "models": [
     {
       "id": "baidu/ernie-5.5-flash-preview:free",
@@ -30,7 +30,7 @@
     },
     {
       "id": "google/gemma-4-26b-a4b-it:free",
-      "health": "ok",
+      "health": "sick",
       "rate": "20 RPM · 50 RPD",
       "data_use": "no-training",
       "context_window": 262144,
@@ -107,6 +107,14 @@
       "data_use": "may-train",
       "context_window": 1000000,
       "modalities": "text,image,video"
+    },
+    {
+      "id": "particle-ai/particle-1:free",
+      "health": "",
+      "rate": "20 RPM · 50 RPD",
+      "data_use": null,
+      "context_window": 1048576,
+      "modalities": "text,image"
     },
     {
       "id": "pollinations/openai-fast",
