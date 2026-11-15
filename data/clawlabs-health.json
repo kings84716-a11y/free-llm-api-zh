@@ -1,7 +1,7 @@
 {
   "fetched": true,
-  "source_updated_at": "2026-11-13T11:57:38.747Z",
-  "checked_at": "2026-11-14T09:00:01+08:00",
+  "source_updated_at": "2026-11-14T11:16:01.754Z",
+  "checked_at": "2026-11-15T09:00:02+08:00",
   "count": 17,
   "models": [
     {
@@ -30,7 +30,7 @@
     },
     {
       "id": "google/gemma-4-26b-a4b-it:free",
-      "health": "sick",
+      "health": "ok",
       "rate": "20 RPM · 50 RPD",
       "data_use": "no-training",
       "context_window": 262144,
@@ -61,12 +61,12 @@
       "modalities": "text,image,audio"
     },
     {
-      "id": "liquid/lfm-2.5-2.6b:free",
+      "id": "inclusionai/ling-3.2-flash:free",
       "health": "",
       "rate": "20 RPM · 50 RPD",
-      "data_use": "may-train",
-      "context_window": 65536,
-      "modalities": "text"
+      "data_use": null,
+      "context_window": 1048576,
+      "modalities": "text,image"
     },
     {
       "id": "liquid/lfm-3-1.7b:free",
