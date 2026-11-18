@@ -1,16 +1,16 @@
 {
- "checked_at": "2026-11-17T09:00:31+0800",
+ "checked_at": "2026-11-18T09:00:22+0800",
  "new_providers": [
   {
    "candidate_id": "inferall",
    "name": "InferAll",
    "free_model_count": 6,
    "sample_models": [
-    "z-ai/glm-5.3",
     "z-ai/glm-5.3-flash",
-    "nvidia/nemotron-3.5-super-vl-120b-a12b",
-    "nvidia/nemotron-3-ultra-550b-a55b",
-    "nvidia/nemotron-3.5-lightning-30b-a3b"
+    "z-ai/glm-5.3",
+    "openai/gpt-oss-20b",
+    "nvidia/nemotron-3.5-lightning-30b-a3b",
+    "nvidia/nemotron-3-ultra-550b-a55b"
    ],
    "api_base": "https://api.inferall.ai/v1",
    "env_var": [
