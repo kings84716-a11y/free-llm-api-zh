@@ -1,16 +1,16 @@
 {
- "checked_at": "2026-11-18T09:00:22+0800",
+ "checked_at": "2026-11-19T09:00:22+0800",
  "new_providers": [
   {
    "candidate_id": "inferall",
    "name": "InferAll",
    "free_model_count": 6,
    "sample_models": [
-    "z-ai/glm-5.3-flash",
-    "z-ai/glm-5.3",
-    "openai/gpt-oss-20b",
     "nvidia/nemotron-3.5-lightning-30b-a3b",
-    "nvidia/nemotron-3-ultra-550b-a55b"
+    "nvidia/nemotron-3-ultra-550b-a55b",
+    "nvidia/nemotron-3.5-super-vl-120b-a12b",
+    "z-ai/glm-5.3-flash",
+    "z-ai/glm-5.3"
    ],
    "api_base": "https://api.inferall.ai/v1",
    "env_var": [
@@ -25,9 +25,9 @@
    "name": "Jad AI",
    "free_model_count": 3,
    "sample_models": [
-    "jad-ai",
+    "jad-go",
     "jad-code",
-    "jad-go"
+    "jad-ai"
    ],
    "api_base": "https://jadai.freesrv.com/v1",
    "env_var": [
