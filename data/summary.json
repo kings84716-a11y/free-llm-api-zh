@@ -1,9 +1,9 @@
 {
-  "date": "2026-11-20",
-  "checked_at": "2026-11-20T09:00:02+08:00",
+  "date": "2026-11-21",
+  "checked_at": "2026-11-21T09:00:02+08:00",
   "providers_total": 17,
-  "alive_verified": 5,
-  "alive": 2,
+  "alive_verified": 4,
+  "alive": 3,
   "alive_auth": 8,
   "down": 2,
   "unknown": 0,
@@ -16,6 +16,6 @@
     "NVIDIA_API_KEY",
     "OPENROUTER_API_KEY"
   ],
-  "openrouter_free_count": 16,
-  "clawlabs_count": 17
+  "openrouter_free_count": 15,
+  "clawlabs_count": 15
 }

@@ -1,23 +1,15 @@
 {
   "fetched": true,
-  "source_updated_at": "2026-11-19T12:37:24.350Z",
-  "checked_at": "2026-11-20T09:00:02+08:00",
-  "count": 17,
+  "source_updated_at": "2026-11-20T12:36:56.972Z",
+  "checked_at": "2026-11-21T09:00:02+08:00",
+  "count": 15,
   "models": [
     {
       "id": "baidu/ernie-5.5-flash-preview:free",
-      "health": "",
+      "health": "ok",
       "rate": "20 RPM · 50 RPD",
       "data_use": null,
       "context_window": 1024000,
-      "modalities": "text"
-    },
-    {
-      "id": "cohere/north-mini-code:free",
-      "health": "ok",
-      "rate": "20 RPM · 50 RPD",
-      "data_use": "no-training",
-      "context_window": 256000,
       "modalities": "text"
     },
     {
@@ -30,7 +22,7 @@
     },
     {
       "id": "google/gemma-4-26b-a4b-it:free",
-      "health": "sick",
+      "health": "ok",
       "rate": "20 RPM · 50 RPD",
       "data_use": "no-training",
       "context_window": 262144,
@@ -62,7 +54,7 @@
     },
     {
       "id": "inclusionai/ling-3.2-flash:free",
-      "health": "",
+      "health": "ok",
       "rate": "20 RPM · 50 RPD",
       "data_use": null,
       "context_window": 1048576,
@@ -110,7 +102,7 @@
     },
     {
       "id": "particle-ai/particle-1:free",
-      "health": "",
+      "health": "sick",
       "rate": "20 RPM · 50 RPD",
       "data_use": null,
       "context_window": 1048576,
@@ -131,14 +123,6 @@
       "data_use": "no-training",
       "context_window": 262144,
       "modalities": "text"
-    },
-    {
-      "id": "thinkingmachines/inkling-2-small:free",
-      "health": "",
-      "rate": "20 RPM · 50 RPD",
-      "data_use": "may-train",
-      "context_window": 1048576,
-      "modalities": "text,image"
     }
   ]
 }
