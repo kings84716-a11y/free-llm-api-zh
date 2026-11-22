@@ -1,8 +1,8 @@
 {
   "fetched": true,
-  "source_updated_at": "2026-11-20T12:36:56.972Z",
-  "checked_at": "2026-11-21T09:00:02+08:00",
-  "count": 15,
+  "source_updated_at": "2026-11-21T12:17:01.666Z",
+  "checked_at": "2026-11-22T09:00:01+08:00",
+  "count": 14,
   "models": [
     {
       "id": "baidu/ernie-5.5-flash-preview:free",
@@ -11,14 +11,6 @@
       "data_use": null,
       "context_window": 1024000,
       "modalities": "text"
-    },
-    {
-      "id": "dots-studio/dots-3-note-preview:free",
-      "health": "ok",
-      "rate": "20 RPM · 50 RPD",
-      "data_use": "no-training",
-      "context_window": 512000,
-      "modalities": "text,image"
     },
     {
       "id": "google/gemma-4-26b-a4b-it:free",
@@ -102,7 +94,7 @@
     },
     {
       "id": "particle-ai/particle-1:free",
-      "health": "sick",
+      "health": "",
       "rate": "20 RPM · 50 RPD",
       "data_use": null,
       "context_window": 1048576,

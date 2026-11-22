@@ -1,19 +1,13 @@
 {
   "fetched": true,
-  "checked_at": "2026-11-21T09:00:02+08:00",
-  "count": 15,
+  "checked_at": "2026-11-22T09:00:01+08:00",
+  "count": 14,
   "models": [
     {
       "id": "baidu/ernie-5.5-flash-preview:free",
       "name": "Baidu: ERNIE-5.5-Flash-Preview (free)",
       "context": 1024000,
       "modality": "text"
-    },
-    {
-      "id": "dots-studio/dots-3-note-preview:free",
-      "name": "Dots Studio: Dots3-Note Preview (free)",
-      "context": 512000,
-      "modality": "text,image"
     },
     {
       "id": "google/gemma-4-26b-a4b-it:free",
