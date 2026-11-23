@@ -1,16 +1,16 @@
 {
- "checked_at": "2026-11-22T09:00:24+0800",
+ "checked_at": "2026-11-23T09:00:23+0800",
  "new_providers": [
   {
    "candidate_id": "inferall",
    "name": "InferAll",
    "free_model_count": 6,
    "sample_models": [
-    "nvidia/nemotron-3-ultra-550b-a55b",
-    "nvidia/nemotron-3.5-lightning-30b-a3b",
-    "nvidia/nemotron-3.5-super-vl-120b-a12b",
+    "z-ai/glm-5.3-flash",
+    "z-ai/glm-5.3",
     "openai/gpt-oss-20b",
-    "z-ai/glm-5.3"
+    "nvidia/nemotron-3.5-super-vl-120b-a12b",
+    "nvidia/nemotron-3.5-lightning-30b-a3b"
    ],
    "api_base": "https://api.inferall.ai/v1",
    "env_var": [
@@ -25,9 +25,9 @@
    "name": "Jad AI",
    "free_model_count": 3,
    "sample_models": [
-    "jad-go",
     "jad-ai",
-    "jad-code"
+    "jad-code",
+    "jad-go"
    ],
    "api_base": "https://jadai.freesrv.com/v1",
    "env_var": [
@@ -42,8 +42,8 @@
    "name": "Eden AI",
    "free_model_count": 2,
    "sample_models": [
-    "cohere/command-a-vision-07-2025",
-    "cohere/command-a-translate-08-2025"
+    "cohere/command-a-translate-08-2025",
+    "cohere/command-a-vision-07-2025"
    ],
    "api_base": "https://api.edenai.run/v3",
    "env_var": [
@@ -82,6 +82,21 @@
    "source": "models.dev",
    "note": "待人工确认注册门槛/是否真免费/是否中转",
    "first_seen_today": false
+  },
+  {
+   "candidate_id": "concentrate",
+   "name": "Concentrate",
+   "free_model_count": 1,
+   "sample_models": [
+    "apodex-1.1-mini"
+   ],
+   "api_base": "https://api.concentrate.ai/v1",
+   "env_var": [
+    "CONCENTRATE_API_KEY"
+   ],
+   "source": "models.dev",
+   "note": "待人工确认注册门槛/是否真免费/是否中转",
+   "first_seen_today": true
   }
  ],
  "new_openrouter_models": [],
