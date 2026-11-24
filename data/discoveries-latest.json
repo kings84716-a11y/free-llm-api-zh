@@ -1,16 +1,16 @@
 {
- "checked_at": "2026-11-23T09:00:23+0800",
+ "checked_at": "2026-11-24T09:00:26+0800",
  "new_providers": [
   {
    "candidate_id": "inferall",
    "name": "InferAll",
    "free_model_count": 6,
    "sample_models": [
-    "z-ai/glm-5.3-flash",
-    "z-ai/glm-5.3",
     "openai/gpt-oss-20b",
     "nvidia/nemotron-3.5-super-vl-120b-a12b",
-    "nvidia/nemotron-3.5-lightning-30b-a3b"
+    "nvidia/nemotron-3.5-lightning-30b-a3b",
+    "nvidia/nemotron-3-ultra-550b-a55b",
+    "z-ai/glm-5.3-flash"
    ],
    "api_base": "https://api.inferall.ai/v1",
    "env_var": [
@@ -25,9 +25,9 @@
    "name": "Jad AI",
    "free_model_count": 3,
    "sample_models": [
-    "jad-ai",
     "jad-code",
-    "jad-go"
+    "jad-go",
+    "jad-ai"
    ],
    "api_base": "https://jadai.freesrv.com/v1",
    "env_var": [
@@ -69,6 +69,21 @@
    "first_seen_today": false
   },
   {
+   "candidate_id": "concentrate",
+   "name": "Concentrate",
+   "free_model_count": 1,
+   "sample_models": [
+    "apodex-1.1-mini"
+   ],
+   "api_base": "https://api.concentrate.ai/v1",
+   "env_var": [
+    "CONCENTRATE_API_KEY"
+   ],
+   "source": "models.dev",
+   "note": "待人工确认注册门槛/是否真免费/是否中转",
+   "first_seen_today": false
+  },
+  {
    "candidate_id": "obscurify",
    "name": "Obscurify.ai",
    "free_model_count": 1,
@@ -82,21 +97,6 @@
    "source": "models.dev",
    "note": "待人工确认注册门槛/是否真免费/是否中转",
    "first_seen_today": false
-  },
-  {
-   "candidate_id": "concentrate",
-   "name": "Concentrate",
-   "free_model_count": 1,
-   "sample_models": [
-    "apodex-1.1-mini"
-   ],
-   "api_base": "https://api.concentrate.ai/v1",
-   "env_var": [
-    "CONCENTRATE_API_KEY"
-   ],
-   "source": "models.dev",
-   "note": "待人工确认注册门槛/是否真免费/是否中转",
-   "first_seen_today": true
   }
  ],
  "new_openrouter_models": [],
@@ -105,7 +105,7 @@
   "openrouter": "ok",
   "clawlabs": "ok"
  },
- "openrouter_free_total": 14,
- "clawlabs_total": 14,
+ "openrouter_free_total": 15,
+ "clawlabs_total": 15,
  "clawlabs_healthy": 5
 }
