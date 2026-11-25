@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-24T09:00:26+0800",
+ "checked_at": "2026-11-25T09:00:22+0800",
  "new_providers": [
   {
    "candidate_id": "inferall",
@@ -7,10 +7,10 @@
    "free_model_count": 6,
    "sample_models": [
     "openai/gpt-oss-20b",
-    "nvidia/nemotron-3.5-super-vl-120b-a12b",
-    "nvidia/nemotron-3.5-lightning-30b-a3b",
+    "z-ai/glm-5.3",
+    "z-ai/glm-5.3-flash",
     "nvidia/nemotron-3-ultra-550b-a55b",
-    "z-ai/glm-5.3-flash"
+    "nvidia/nemotron-3.5-super-vl-120b-a12b"
    ],
    "api_base": "https://api.inferall.ai/v1",
    "env_var": [
@@ -54,15 +54,30 @@
    "first_seen_today": false
   },
   {
-   "candidate_id": "cheapllm",
-   "name": "cheapllm.shop",
+   "candidate_id": "togetherai",
+   "name": "Together AI",
    "free_model_count": 1,
    "sample_models": [
-    "deepseek-v4.1-flash-1017"
+    "Prism-ML/Ternary-Bonsai-27B"
    ],
-   "api_base": "https://cheapllm.shop/v1",
+   "api_base": "",
    "env_var": [
-    "CHEAPLLM_API_KEY"
+    "TOGETHER_API_KEY"
+   ],
+   "source": "models.dev",
+   "note": "待人工确认注册门槛/是否真免费/是否中转",
+   "first_seen_today": true
+  },
+  {
+   "candidate_id": "obscurify",
+   "name": "Obscurify.ai",
+   "free_model_count": 1,
+   "sample_models": [
+    "deepseek/deepseek-v4-flash"
+   ],
+   "api_base": "https://obscurify.ai/v1",
+   "env_var": [
+    "OBSCURIFY_API_KEY"
    ],
    "source": "models.dev",
    "note": "待人工确认注册门槛/是否真免费/是否中转",
@@ -84,15 +99,15 @@
    "first_seen_today": false
   },
   {
-   "candidate_id": "obscurify",
-   "name": "Obscurify.ai",
+   "candidate_id": "cheapllm",
+   "name": "cheapllm.shop",
    "free_model_count": 1,
    "sample_models": [
-    "deepseek/deepseek-v4-flash"
+    "deepseek-v4.1-flash-1017"
    ],
-   "api_base": "https://obscurify.ai/v1",
+   "api_base": "https://cheapllm.shop/v1",
    "env_var": [
-    "OBSCURIFY_API_KEY"
+    "CHEAPLLM_API_KEY"
    ],
    "source": "models.dev",
    "note": "待人工确认注册门槛/是否真免费/是否中转",
@@ -105,7 +120,7 @@
   "openrouter": "ok",
   "clawlabs": "ok"
  },
- "openrouter_free_total": 15,
+ "openrouter_free_total": 14,
  "clawlabs_total": 15,
- "clawlabs_healthy": 5
+ "clawlabs_healthy": 6
 }

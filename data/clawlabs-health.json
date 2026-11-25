@@ -1,7 +1,7 @@
 {
   "fetched": true,
-  "source_updated_at": "2026-11-23T14:11:17.184Z",
-  "checked_at": "2026-11-24T09:00:02+08:00",
+  "source_updated_at": "2026-11-24T14:39:09.696Z",
+  "checked_at": "2026-11-25T09:00:02+08:00",
   "count": 15,
   "models": [
     {
@@ -14,7 +14,7 @@
     },
     {
       "id": "dots-studio/dots-3-note-preview:free",
-      "health": "",
+      "health": "ok",
       "rate": "20 RPM · 50 RPD",
       "data_use": "no-training",
       "context_window": 512000,
@@ -102,7 +102,7 @@
     },
     {
       "id": "particle-ai/particle-1:free",
-      "health": "",
+      "health": "sick",
       "rate": "20 RPM · 50 RPD",
       "data_use": null,
       "context_window": 1048576,
