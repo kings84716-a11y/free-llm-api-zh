@@ -77,11 +77,22 @@ or_rows = "".join(
     for m in orm)
 
 # ClawLabs 健康模型
+# 权威口径：OpenRouter 当前免费目录为准。ClawLabs 等第三方探活可能滞后——
+# OpenRouter 已下架/消失的模型即使第三方仍标 health=ok，也不得进入 healthy/可用表，
+# 单独归入“第三方滞后/已下架”提示区。
 clms = claw.get("models", []) if isinstance(claw, dict) else []
-healthy = [m for m in clms if (m.get("health") or "") == "ok"]
+or_free_ids = {m.get("id") for m in orm if m.get("id")}
+clawlabs_ok = [m for m in clms if (m.get("health") or "") == "ok"]
+healthy = [m for m in clawlabs_ok if m.get("id") in or_free_ids]
+# 第三方仍标健康、但 OpenRouter 免费目录已无此模型 = 探活滞后/已下架
+stale_ok = [m for m in clawlabs_ok if m.get("id") not in or_free_ids]
 cl_rows = "".join(
     f'<tr><td><code>{esc(m.get("id"))}</code></td><td>{m.get("ctx","")}</td><td>{esc(m.get("rate",""))}</td><td>{esc(m.get("data_use",""))}</td></tr>'
     for m in sorted(healthy, key=lambda x:x.get("id","")))
+stale_rows = "".join(
+    f'<tr><td><code>{esc(m.get("id"))}</code></td><td>{esc(m.get("rate",""))}</td>'
+    f'<td>第三方探活仍标健康，但 OpenRouter 当前免费目录已无此模型（已下架/目录滞后），不计入可用</td></tr>'
+    for m in sorted(stale_ok, key=lambda x:x.get("id","")))
 
 dep_rows = "".join(
     f'<li><b>{esc(x.get("name"))}</b> — {esc(x.get("reason"))}</li>' for x in deprecated)
@@ -180,6 +191,7 @@ code{{font-family:ui-monospace,Menlo,monospace;font-size:12px}}
 <h2>OpenRouter 免费模型（一个 Key 通用）</h2>
 <table><thead><tr><th>模型</th><th>上下文</th><th>模态</th></tr></thead><tbody>{or_rows}</tbody></table>
 {('<h2>当前健康的免费模型 · ClawLabs 探活</h2><table><thead><tr><th>模型</th><th>上下文</th><th>限速</th><th>数据训练</th></tr></thead><tbody>'+cl_rows+'</tbody></table>') if cl_rows else ''}
+{('<h2>⚠️ 第三方探活滞后 / OpenRouter 已下架（不计入可用）</h2><table><thead><tr><th>模型</th><th>第三方限速</th><th>说明</th></tr></thead><tbody>'+stale_rows+'</tbody></table>') if stale_rows else ''}
 <div class="foot">
   数据由开源脚本每日自动实测生成 · 免费额度随时可能变化，以各官网为准 · 本榜单永久免费开放<br>
   仅供学习研究 · 请遵守各平台服务条款 · 一个账号一个 Key，勿批量注册
@@ -189,6 +201,7 @@ code{{font-family:ui-monospace,Menlo,monospace;font-size:12px}}
 open(os.path.join(SITE, "index.html"), "w").write(html)
 # site/data.json 给程序读
 json.dump({"checked_at": checked, "summary": summ, "providers": providers,
-           "openrouter_free": orm, "healthy": healthy},
+           "openrouter_free": orm, "healthy": healthy,
+           "stale_third_party": [m.get("id") for m in stale_ok]},
           open(os.path.join(SITE, "data.json"), "w"), ensure_ascii=False, indent=1)
 print("site built:", os.path.join(SITE, "index.html"), len(html), "bytes")

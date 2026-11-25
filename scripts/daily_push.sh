@@ -9,6 +9,9 @@ python3 scripts/probe.py
 python3 scripts/discover.py
 python3 scripts/build_site.py
 
+# 1.5 构建视频选题库（汇总 HF/GitHub 监控产出 + 本站发现）
+python3 scripts/build_topic_bank.py || echo "选题库构建失败，不阻塞主流程"
+
 # 2. 同步 site -> docs（Pages 从 /docs 发布）
 mkdir -p docs
 cp site/index.html site/data.json docs/
@@ -16,7 +19,7 @@ cp site/index.html site/data.json docs/
 # 3. 提交推送（credential helper 用 .git/.freehub-cred）
 export GIT_TERMINAL_PROMPT=0
 git config credential.helper 'store --file=.git/.freehub-cred'
-git add data site docs
+git add data site docs video/topic_bank.json video/topic_bank.md
 if git diff --staged --quiet; then
   echo "$(date '+%F %T') 无变化"
   exit 0

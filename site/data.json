@@ -541,14 +541,6 @@
    "modalities": "text"
   },
   {
-   "id": "dots-studio/dots-3-note-preview:free",
-   "health": "ok",
-   "rate": "20 RPM · 50 RPD",
-   "data_use": "no-training",
-   "context_window": 512000,
-   "modalities": "text,image"
-  },
-  {
    "id": "google/gemma-4-26b-a4b-it:free",
    "health": "ok",
    "rate": "20 RPM · 50 RPD",
@@ -580,5 +572,8 @@
    "context_window": 262144,
    "modalities": "text"
   }
+ ],
+ "stale_third_party": [
+  "dots-studio/dots-3-note-preview:free"
  ]
 }

@@ -1,8 +1,7 @@
 {
  "new_or_models": [],
  "gone_or_models": [
-  "thinkingmachines/inkling-small:free",
-  "thinkingmachines/inkling:free"
+  "dots-studio/dots-3-note-preview:free"
  ],
  "new_providers": []
 }
