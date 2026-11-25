@@ -1,6 +1,6 @@
 {
- "built_at": "2026-11-25T09:35:58.452344",
- "count": 118,
+ "built_at": "2026-11-25T09:42:00.387720",
+ "count": 126,
  "topics": [
   {
    "source": "HuggingFace",
@@ -12,6 +12,50 @@
    "url": "https://huggingface.co/chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized"
   },
   {
+   "source": "GitHub",
+   "name": "omonkeyz/xbox-emulator",
+   "track": "其他AI工具",
+   "hook": "新出的AI开源项目，值不值得跟",
+   "score": 5,
+   "stars": 1825,
+   "desc": "Progress notes for running Xbox Series X|S builds on PC (TomBox + rage9)",
+   "updated": "2026-11-21",
+   "url": "https://github.com/omonkeyz/xbox-emulator"
+  },
+  {
+   "source": "GitHub",
+   "name": "w01fb0ss/PiBot",
+   "track": "AI Agent",
+   "hook": "Agent又出新玩法，这个开源项目值得抄",
+   "score": 5,
+   "stars": 560,
+   "desc": "Open-source, local-first AI agent team for your desktop: multi-agent group chats, computer use, browser, MCP, routines and approvals. macOS, Windows, Linux + Android. Built on pi.",
+   "updated": "2026-11-21",
+   "url": "https://github.com/w01fb0ss/PiBot"
+  },
+  {
+   "source": "GitHub",
+   "name": "sous-labs/songe",
+   "track": "其他AI工具",
+   "hook": "新出的AI开源项目，值不值得跟",
+   "score": 5,
+   "stars": 680,
+   "desc": "A training engine for your local model, using your idle compute",
+   "updated": "2026-11-20",
+   "url": "https://github.com/sous-labs/songe"
+  },
+  {
+   "source": "GitHub",
+   "name": "iamajmeena/neonclipping",
+   "track": "AI语音/音乐",
+   "hook": "语音克隆/配音新方案，不用付费API",
+   "score": 5,
+   "stars": 2487,
+   "desc": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
+   "updated": "2026-11-19",
+   "url": "https://github.com/iamajmeena/neonclipping"
+  },
+  {
    "source": "HuggingFace",
    "name": "bartowski/2Beyes_Aurum-4B-Uncensored-GGUF",
    "track": "无审查模型",
@@ -19,6 +63,39 @@
    "score": 4,
    "updated": "2026-11-23T16:50",
    "url": "https://huggingface.co/bartowski/2Beyes_Aurum-4B-Uncensored-GGUF"
+  },
+  {
+   "source": "GitHub",
+   "name": "erkamyaman/safe-anything",
+   "track": "AI Agent",
+   "hook": "Agent又出新玩法，这个开源项目值得抄",
+   "score": 4,
+   "stars": 628,
+   "desc": "Find the holes before someone else does. A fast, 100% Rust vulnerability scanner: XSS, SQL injection, leaked secrets, dependency CVEs and AI agent setups.",
+   "updated": "2026-11-22",
+   "url": "https://github.com/erkamyaman/safe-anything"
+  },
+  {
+   "source": "GitHub",
+   "name": "Ahmet-Dedeler/awesome-gta6-reverse-engineering",
+   "track": "AI语音/音乐",
+   "hook": "语音克隆/配音新方案，不用付费API",
+   "score": 4,
+   "stars": 692,
+   "desc": "Curated list of open-source GTA VI (GTA 6) reverse engineering tools, RAGE 9 / RPF9 archive explorers, TTPF texture & ADAT/AWC audio decoders, format docs, and Xbox Series / PS5 translation layers.",
+   "updated": "2026-11-21",
+   "url": "https://github.com/Ahmet-Dedeler/awesome-gta6-reverse-engineering"
+  },
+  {
+   "source": "GitHub",
+   "name": "ThreatDefence/agentic-attack-detections",
+   "track": "AI Agent",
+   "hook": "Agent又出新玩法，这个开源项目值得抄",
+   "score": 4,
+   "stars": 629,
+   "desc": "Detection rules and IOCs for AI agent attack frameworks: ARTEX, Cairn, PentAGI, HexStrike, CyberStrikeAI, Strix, Hermes Agent, Agent Zero, RedAmon, Xalgorix, Pentest Swarm AI. KQL hunts for Microsoft ",
+   "updated": "2026-11-20",
+   "url": "https://github.com/ThreatDefence/agentic-attack-detections"
   },
   {
    "source": "HuggingFace",
@@ -64,6 +141,17 @@
    "score": 4,
    "updated": "",
    "url": "https://huggingface.co/DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF"
+  },
+  {
+   "source": "GitHub",
+   "name": "Developing-Gamer/agent-sim",
+   "track": "AI Agent",
+   "hook": "Agent又出新玩法，这个开源项目值得抄",
+   "score": 3,
+   "stars": 563,
+   "desc": "iOS simulators for AI agents, on Linux. The agent layer for x86Sim.",
+   "updated": "2026-11-21",
+   "url": "https://github.com/Developing-Gamer/agent-sim"
   },
   {
    "source": "HuggingFace",

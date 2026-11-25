@@ -1,7 +1,11 @@
-# 视频选题库（自动生成 2026-11-25 09:35，共 118 条）
+# 视频选题库（自动生成 2026-11-25 09:42，共 126 条）
 
 
-## 其他AI工具（48 条）
+## 其他AI工具（50 条）
+- [GitHub|评分5] omonkeyz/xbox-emulator
+    钩子：新出的AI开源项目，值不值得跟 ｜ https://github.com/omonkeyz/xbox-emulator
+- [GitHub|评分5] sous-labs/songe
+    钩子：新出的AI开源项目，值不值得跟 ｜ https://github.com/sous-labs/songe
 - [HuggingFace|评分0] unsloth/Inkling-2-Mini-unsloth-bnb-4bit
     钩子：新出的AI开源项目，值不值得跟 ｜ https://huggingface.co/unsloth/Inkling-2-Mini-unsloth-bnb-4bit
 - [HuggingFace|评分0] unsloth/Inkling-2-Mini
@@ -14,10 +18,6 @@
     钩子：新出的AI开源项目，值不值得跟 ｜ https://huggingface.co/mlx-community/Holo4-35B-A3B-8bit
 - [HuggingFace|评分0] mlx-community/Holo4-35B-A3B-4bit
     钩子：新出的AI开源项目，值不值得跟 ｜ https://huggingface.co/mlx-community/Holo4-35B-A3B-4bit
-- [HuggingFace|评分0] mlx-community/Holo-3.1-35B-A3B-8bit
-    钩子：新出的AI开源项目，值不值得跟 ｜ https://huggingface.co/mlx-community/Holo-3.1-35B-A3B-8bit
-- [HuggingFace|评分0] mlx-community/Holo-3.1-35B-A3B-4bit
-    钩子：新出的AI开源项目，值不值得跟 ｜ https://huggingface.co/mlx-community/Holo-3.1-35B-A3B-4bit
 
 ## 开源大模型（44 条）
 - [HuggingFace|评分1] mradermacher/Gemma-4-GemClone-31B-GGUF
@@ -85,7 +85,21 @@
 - [HuggingFace|评分2] HuggingFaceTB/SmolVLM2-256M-Video-Instruct
     钩子：本地跑AI视频/数字人，新出的这个项目什么水平 ｜ https://huggingface.co/HuggingFaceTB/SmolVLM2-256M-Video-Instruct
 
-## AI语音/音乐（1 条）
+## AI Agent（4 条）
+- [GitHub|评分5] w01fb0ss/PiBot
+    钩子：Agent又出新玩法，这个开源项目值得抄 ｜ https://github.com/w01fb0ss/PiBot
+- [GitHub|评分4] erkamyaman/safe-anything
+    钩子：Agent又出新玩法，这个开源项目值得抄 ｜ https://github.com/erkamyaman/safe-anything
+- [GitHub|评分4] ThreatDefence/agentic-attack-detections
+    钩子：Agent又出新玩法，这个开源项目值得抄 ｜ https://github.com/ThreatDefence/agentic-attack-detections
+- [GitHub|评分3] Developing-Gamer/agent-sim
+    钩子：Agent又出新玩法，这个开源项目值得抄 ｜ https://github.com/Developing-Gamer/agent-sim
+
+## AI语音/音乐（3 条）
+- [GitHub|评分5] iamajmeena/neonclipping
+    钩子：语音克隆/配音新方案，不用付费API ｜ https://github.com/iamajmeena/neonclipping
+- [GitHub|评分4] Ahmet-Dedeler/awesome-gta6-reverse-engineering
+    钩子：语音克隆/配音新方案，不用付费API ｜ https://github.com/Ahmet-Dedeler/awesome-gta6-reverse-engineering
 - [HuggingFace|评分2] inworld/voice-isolator
     钩子：语音克隆/配音新方案，不用付费API ｜ https://huggingface.co/inworld/voice-isolator
 
