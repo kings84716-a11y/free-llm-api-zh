@@ -1,6 +1,6 @@
 {
- "built_at": "2026-11-25T09:42:00.387720",
- "count": 126,
+ "built_at": "2026-11-26T09:00:23.285906",
+ "count": 125,
  "topics": [
   {
    "source": "HuggingFace",
@@ -17,7 +17,7 @@
    "track": "其他AI工具",
    "hook": "新出的AI开源项目，值不值得跟",
    "score": 5,
-   "stars": 1825,
+   "stars": 1850,
    "desc": "Progress notes for running Xbox Series X|S builds on PC (TomBox + rage9)",
    "updated": "2026-11-21",
    "url": "https://github.com/omonkeyz/xbox-emulator"
@@ -28,7 +28,7 @@
    "track": "AI Agent",
    "hook": "Agent又出新玩法，这个开源项目值得抄",
    "score": 5,
-   "stars": 560,
+   "stars": 598,
    "desc": "Open-source, local-first AI agent team for your desktop: multi-agent group chats, computer use, browser, MCP, routines and approvals. macOS, Windows, Linux + Android. Built on pi.",
    "updated": "2026-11-21",
    "url": "https://github.com/w01fb0ss/PiBot"
@@ -39,21 +39,37 @@
    "track": "其他AI工具",
    "hook": "新出的AI开源项目，值不值得跟",
    "score": 5,
-   "stars": 680,
+   "stars": 863,
    "desc": "A training engine for your local model, using your idle compute",
    "updated": "2026-11-20",
    "url": "https://github.com/sous-labs/songe"
   },
   {
-   "source": "GitHub",
-   "name": "iamajmeena/neonclipping",
-   "track": "AI语音/音乐",
-   "hook": "语音克隆/配音新方案，不用付费API",
-   "score": 5,
-   "stars": 2487,
-   "desc": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
-   "updated": "2026-11-19",
-   "url": "https://github.com/iamajmeena/neonclipping"
+   "source": "HuggingFace",
+   "name": "mradermacher/Qwen3-0.6B-3MPER0RR-abliterated-Cyber-V1-GGUF",
+   "track": "无审查模型",
+   "hook": "这个模型什么都敢答？实测去审查模型的真实边界",
+   "score": 4,
+   "updated": "2026-11-26T00:46",
+   "url": "https://huggingface.co/mradermacher/Qwen3-0.6B-3MPER0RR-abliterated-Cyber-V1-GGUF"
+  },
+  {
+   "source": "HuggingFace",
+   "name": "mradermacher/Inkling-2-Mini-Heretic-i1-GGUF",
+   "track": "无审查模型",
+   "hook": "这个模型什么都敢答？实测去审查模型的真实边界",
+   "score": 4,
+   "updated": "2026-11-26T00:45",
+   "url": "https://huggingface.co/mradermacher/Inkling-2-Mini-Heretic-i1-GGUF"
+  },
+  {
+   "source": "HuggingFace",
+   "name": "mradermacher/Inkling-2-Mini-Heretic-GGUF",
+   "track": "无审查模型",
+   "hook": "这个模型什么都敢答？实测去审查模型的真实边界",
+   "score": 4,
+   "updated": "2026-11-25T22:09",
+   "url": "https://huggingface.co/mradermacher/Inkling-2-Mini-Heretic-GGUF"
   },
   {
    "source": "HuggingFace",
@@ -70,7 +86,7 @@
    "track": "AI Agent",
    "hook": "Agent又出新玩法，这个开源项目值得抄",
    "score": 4,
-   "stars": 628,
+   "stars": 705,
    "desc": "Find the holes before someone else does. A fast, 100% Rust vulnerability scanner: XSS, SQL injection, leaked secrets, dependency CVEs and AI agent setups.",
    "updated": "2026-11-22",
    "url": "https://github.com/erkamyaman/safe-anything"
@@ -81,7 +97,7 @@
    "track": "AI语音/音乐",
    "hook": "语音克隆/配音新方案，不用付费API",
    "score": 4,
-   "stars": 692,
+   "stars": 743,
    "desc": "Curated list of open-source GTA VI (GTA 6) reverse engineering tools, RAGE 9 / RPF9 archive explorers, TTPF texture & ADAT/AWC audio decoders, format docs, and Xbox Series / PS5 translation layers.",
    "updated": "2026-11-21",
    "url": "https://github.com/Ahmet-Dedeler/awesome-gta6-reverse-engineering"
@@ -92,7 +108,7 @@
    "track": "AI Agent",
    "hook": "Agent又出新玩法，这个开源项目值得抄",
    "score": 4,
-   "stars": 629,
+   "stars": 694,
    "desc": "Detection rules and IOCs for AI agent attack frameworks: ARTEX, Cairn, PentAGI, HexStrike, CyberStrikeAI, Strix, Hermes Agent, Agent Zero, RedAmon, Xalgorix, Pentest Swarm AI. KQL hunts for Microsoft ",
    "updated": "2026-11-20",
    "url": "https://github.com/ThreatDefence/agentic-attack-detections"
@@ -108,21 +124,21 @@
   },
   {
    "source": "HuggingFace",
-   "name": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
-   "track": "无审查模型",
-   "hook": "这个模型什么都敢答？实测去审查模型的真实边界",
-   "score": 4,
-   "updated": "",
-   "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF"
-  },
-  {
-   "source": "HuggingFace",
    "name": "orcarouter/Inkling-2-Mini-abliterated-GGUF",
    "track": "无审查模型",
    "hook": "这个模型什么都敢答？实测去审查模型的真实边界",
    "score": 4,
    "updated": "",
    "url": "https://huggingface.co/orcarouter/Inkling-2-Mini-abliterated-GGUF"
+  },
+  {
+   "source": "HuggingFace",
+   "name": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+   "track": "无审查模型",
+   "hook": "这个模型什么都敢答？实测去审查模型的真实边界",
+   "score": 4,
+   "updated": "",
+   "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF"
   },
   {
    "source": "HuggingFace",
@@ -148,7 +164,7 @@
    "track": "AI Agent",
    "hook": "Agent又出新玩法，这个开源项目值得抄",
    "score": 3,
-   "stars": 563,
+   "stars": 597,
    "desc": "iOS simulators for AI agents, on Linux. The agent layer for x86Sim.",
    "updated": "2026-11-21",
    "url": "https://github.com/Developing-Gamer/agent-sim"
@@ -272,12 +288,12 @@
   },
   {
    "source": "HuggingFace",
-   "name": "meituan-longcat/LongCat-Video-Avatar-1.6",
-   "track": "AI视频/数字人",
-   "hook": "本地跑AI视频/数字人，新出的这个项目什么水平",
+   "name": "nvidia/Nemotron-Labs-Image-30B-A3B",
+   "track": "AI图像/老照片修复",
+   "hook": "老照片修复/AI出图新神器，开源免费本地跑",
    "score": 2,
    "updated": "",
-   "url": "https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.6"
+   "url": "https://huggingface.co/nvidia/Nemotron-Labs-Image-30B-A3B"
   },
   {
    "source": "HuggingFace",
@@ -290,6 +306,15 @@
   },
   {
    "source": "HuggingFace",
+   "name": "meituan-longcat/LongCat-Video-Avatar-1.6",
+   "track": "AI视频/数字人",
+   "hook": "本地跑AI视频/数字人，新出的这个项目什么水平",
+   "score": 2,
+   "updated": "",
+   "url": "https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.6"
+  },
+  {
+   "source": "HuggingFace",
    "name": "MiniMaxAI/MiniMax-H3-Image",
    "track": "AI图像/老照片修复",
    "hook": "老照片修复/AI出图新神器，开源免费本地跑",
@@ -299,156 +324,138 @@
   },
   {
    "source": "HuggingFace",
-   "name": "HuggingFaceTB/SmolVLM2-256M-Video-Instruct",
-   "track": "AI视频/数字人",
-   "hook": "本地跑AI视频/数字人，新出的这个项目什么水平",
+   "name": "software-mansion/Reverb-TTS",
+   "track": "AI语音/音乐",
+   "hook": "语音克隆/配音新方案，不用付费API",
    "score": 2,
    "updated": "",
-   "url": "https://huggingface.co/HuggingFaceTB/SmolVLM2-256M-Video-Instruct"
+   "url": "https://huggingface.co/software-mansion/Reverb-TTS"
   },
   {
    "source": "HuggingFace",
-   "name": "black-forest-labs/flux-3-image-klein",
-   "track": "AI图像/老照片修复",
-   "hook": "老照片修复/AI出图新神器，开源免费本地跑",
-   "score": 2,
-   "updated": "",
-   "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein"
-  },
-  {
-   "source": "HuggingFace",
-   "name": "mradermacher/Gemma-4-GemClone-31B-GGUF",
+   "name": "mradermacher/binarized-ingotrix-slerp-7b-GGUF",
    "track": "开源大模型",
    "hook": "又一个能白嫖的开源大模型，本地部署实测",
    "score": 1,
-   "updated": "2026-11-25T01:25",
-   "url": "https://huggingface.co/mradermacher/Gemma-4-GemClone-31B-GGUF"
+   "updated": "2026-11-26T00:25",
+   "url": "https://huggingface.co/mradermacher/binarized-ingotrix-slerp-7b-GGUF"
   },
   {
    "source": "HuggingFace",
-   "name": "mradermacher/Gemma-4-GemClone-31B-i1-GGUF",
+   "name": "mradermacher/yi-6b-chat-translate-GGUF",
    "track": "开源大模型",
    "hook": "又一个能白嫖的开源大模型，本地部署实测",
    "score": 1,
-   "updated": "2026-11-25T01:24",
-   "url": "https://huggingface.co/mradermacher/Gemma-4-GemClone-31B-i1-GGUF"
+   "updated": "2026-11-26T00:24",
+   "url": "https://huggingface.co/mradermacher/yi-6b-chat-translate-GGUF"
   },
   {
    "source": "HuggingFace",
-   "name": "mradermacher/G4-LuneLight-v1.1-31B-i1-GGUF",
+   "name": "mradermacher/llama3_circuit-breaker_lorra-10_target-10-20_lora-16-16_lr-1e-04_batch-8_checkpoint-8-GGUF",
    "track": "开源大模型",
    "hook": "又一个能白嫖的开源大模型，本地部署实测",
    "score": 1,
-   "updated": "2026-11-25T01:24",
-   "url": "https://huggingface.co/mradermacher/G4-LuneLight-v1.1-31B-i1-GGUF"
+   "updated": "2026-11-26T00:24",
+   "url": "https://huggingface.co/mradermacher/llama3_circuit-breaker_lorra-10_target-10-20_lora-16-16_lr-1e-04_batch-8_checkpoint-8-GGUF"
   },
   {
    "source": "HuggingFace",
-   "name": "mradermacher/DeepSeek-R1-0528-GGUF",
+   "name": "mradermacher/MN-Hekate-Ekklesia-12B-GGUF",
    "track": "开源大模型",
    "hook": "又一个能白嫖的开源大模型，本地部署实测",
    "score": 1,
-   "updated": "2026-11-25T01:11",
-   "url": "https://huggingface.co/mradermacher/DeepSeek-R1-0528-GGUF"
+   "updated": "2026-11-26T00:24",
+   "url": "https://huggingface.co/mradermacher/MN-Hekate-Ekklesia-12B-GGUF"
   },
   {
    "source": "HuggingFace",
-   "name": "mradermacher/MUSEG-3B-GGUF",
+   "name": "mradermacher/grok-oss-Apollyon-8B-GGUF",
    "track": "开源大模型",
    "hook": "又一个能白嫖的开源大模型，本地部署实测",
    "score": 1,
-   "updated": "2026-11-25T01:10",
-   "url": "https://huggingface.co/mradermacher/MUSEG-3B-GGUF"
+   "updated": "2026-11-26T00:22",
+   "url": "https://huggingface.co/mradermacher/grok-oss-Apollyon-8B-GGUF"
   },
   {
    "source": "HuggingFace",
-   "name": "mradermacher/scuttle-1.7b-GGUF",
+   "name": "mradermacher/JiRackUltra_14b-i1-GGUF",
    "track": "开源大模型",
    "hook": "又一个能白嫖的开源大模型，本地部署实测",
    "score": 1,
-   "updated": "2026-11-25T01:10",
-   "url": "https://huggingface.co/mradermacher/scuttle-1.7b-GGUF"
+   "updated": "2026-11-26T00:22",
+   "url": "https://huggingface.co/mradermacher/JiRackUltra_14b-i1-GGUF"
   },
   {
    "source": "HuggingFace",
-   "name": "mradermacher/kouman-edge-1b-i1-GGUF",
+   "name": "mradermacher/VirtuosoSmall-InstructModelStock-GGUF",
    "track": "开源大模型",
    "hook": "又一个能白嫖的开源大模型，本地部署实测",
    "score": 1,
-   "updated": "2026-11-25T01:09",
-   "url": "https://huggingface.co/mradermacher/kouman-edge-1b-i1-GGUF"
+   "updated": "2026-11-25T23:16",
+   "url": "https://huggingface.co/mradermacher/VirtuosoSmall-InstructModelStock-GGUF"
   },
   {
    "source": "HuggingFace",
-   "name": "mradermacher/lg-decision-4B-GGUF",
+   "name": "mradermacher/Yehia-7B-preview-GGUF",
    "track": "开源大模型",
    "hook": "又一个能白嫖的开源大模型，本地部署实测",
    "score": 1,
-   "updated": "2026-11-25T01:04",
-   "url": "https://huggingface.co/mradermacher/lg-decision-4B-GGUF"
+   "updated": "2026-11-25T23:16",
+   "url": "https://huggingface.co/mradermacher/Yehia-7B-preview-GGUF"
   },
   {
    "source": "HuggingFace",
-   "name": "mradermacher/kouman-edge-1b-GGUF",
+   "name": "mradermacher/Soar-qwen-32b-GGUF",
    "track": "开源大模型",
    "hook": "又一个能白嫖的开源大模型，本地部署实测",
    "score": 1,
-   "updated": "2026-11-25T00:59",
-   "url": "https://huggingface.co/mradermacher/kouman-edge-1b-GGUF"
+   "updated": "2026-11-25T23:16",
+   "url": "https://huggingface.co/mradermacher/Soar-qwen-32b-GGUF"
   },
   {
    "source": "HuggingFace",
-   "name": "mradermacher/Omni-Edu-Pro-4B-GGUF",
+   "name": "mradermacher/Tenet-26B-A4B-Gemma4-Unslop-v2-GGUF",
    "track": "开源大模型",
    "hook": "又一个能白嫖的开源大模型，本地部署实测",
    "score": 1,
-   "updated": "2026-11-25T00:59",
-   "url": "https://huggingface.co/mradermacher/Omni-Edu-Pro-4B-GGUF"
+   "updated": "2026-11-25T23:10",
+   "url": "https://huggingface.co/mradermacher/Tenet-26B-A4B-Gemma4-Unslop-v2-GGUF"
   },
   {
    "source": "HuggingFace",
-   "name": "mradermacher/Reflex-2B-GGUF",
+   "name": "mradermacher/Tenet-26B-A4B-Gemma4-Unslop-v2-i1-GGUF",
    "track": "开源大模型",
    "hook": "又一个能白嫖的开源大模型，本地部署实测",
    "score": 1,
-   "updated": "2026-11-25T00:58",
-   "url": "https://huggingface.co/mradermacher/Reflex-2B-GGUF"
+   "updated": "2026-11-25T23:10",
+   "url": "https://huggingface.co/mradermacher/Tenet-26B-A4B-Gemma4-Unslop-v2-i1-GGUF"
   },
   {
    "source": "HuggingFace",
-   "name": "mradermacher/TGR-Reliance-Qwen2.5-VL-7B-GGUF",
+   "name": "mradermacher/Micius-Flash-i1-GGUF",
    "track": "开源大模型",
    "hook": "又一个能白嫖的开源大模型，本地部署实测",
    "score": 1,
-   "updated": "2026-11-25T00:47",
-   "url": "https://huggingface.co/mradermacher/TGR-Reliance-Qwen2.5-VL-7B-GGUF"
+   "updated": "2026-11-25T23:00",
+   "url": "https://huggingface.co/mradermacher/Micius-Flash-i1-GGUF"
   },
   {
    "source": "HuggingFace",
-   "name": "mradermacher/MILP-OptiScribe-4B-GGUF",
+   "name": "bartowski/Mellum2.1-12B-A2.5B-Instruct-GGUF",
    "track": "开源大模型",
    "hook": "又一个能白嫖的开源大模型，本地部署实测",
    "score": 1,
-   "updated": "2026-11-25T00:42",
-   "url": "https://huggingface.co/mradermacher/MILP-OptiScribe-4B-GGUF"
+   "updated": "2026-11-25T21:20",
+   "url": "https://huggingface.co/bartowski/Mellum2.1-12B-A2.5B-Instruct-GGUF"
   },
   {
    "source": "HuggingFace",
-   "name": "mradermacher/RSI-4B-GGUF",
+   "name": "bartowski/TheDrummer_GLM-Steam-320B-A18B-v2-GGUF",
    "track": "开源大模型",
    "hook": "又一个能白嫖的开源大模型，本地部署实测",
    "score": 1,
-   "updated": "2026-11-25T00:42",
-   "url": "https://huggingface.co/mradermacher/RSI-4B-GGUF"
-  },
-  {
-   "source": "HuggingFace",
-   "name": "mradermacher/OCRia-1-GGUF",
-   "track": "开源大模型",
-   "hook": "又一个能白嫖的开源大模型，本地部署实测",
-   "score": 1,
-   "updated": "2026-11-25T00:16",
-   "url": "https://huggingface.co/mradermacher/OCRia-1-GGUF"
+   "updated": "2026-11-25T21:01",
+   "url": "https://huggingface.co/bartowski/TheDrummer_GLM-Steam-320B-A18B-v2-GGUF"
   },
   {
    "source": "HuggingFace",
@@ -560,24 +567,6 @@
   },
   {
    "source": "HuggingFace",
-   "name": "bartowski/Saathimed_AxonMed-7B-Flash-GGUF",
-   "track": "开源大模型",
-   "hook": "又一个能白嫖的开源大模型，本地部署实测",
-   "score": 1,
-   "updated": "2026-11-21T23:27",
-   "url": "https://huggingface.co/bartowski/Saathimed_AxonMed-7B-Flash-GGUF"
-  },
-  {
-   "source": "HuggingFace",
-   "name": "bartowski/Saathimed_AxonMed-32B-Thinking-GGUF",
-   "track": "开源大模型",
-   "hook": "又一个能白嫖的开源大模型，本地部署实测",
-   "score": 1,
-   "updated": "2026-11-21T23:18",
-   "url": "https://huggingface.co/bartowski/Saathimed_AxonMed-32B-Thinking-GGUF"
-  },
-  {
-   "source": "HuggingFace",
    "name": "unsloth/Inkling-2-Small-GGUF",
    "track": "开源大模型",
    "hook": "又一个能白嫖的开源大模型，本地部署实测",
@@ -614,6 +603,24 @@
   },
   {
    "source": "HuggingFace",
+   "name": "prism-ml/Ternary-Bonsai-2.5-27B-GGUF",
+   "track": "开源大模型",
+   "hook": "又一个能白嫖的开源大模型，本地部署实测",
+   "score": 1,
+   "updated": "",
+   "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2.5-27B-GGUF"
+  },
+  {
+   "source": "HuggingFace",
+   "name": "llamaindex/OCRia-nano-1",
+   "track": "开源大模型",
+   "hook": "又一个能白嫖的开源大模型，本地部署实测",
+   "score": 1,
+   "updated": "",
+   "url": "https://huggingface.co/llamaindex/OCRia-nano-1"
+  },
+  {
+   "source": "HuggingFace",
    "name": "harness-hub/Qwen3.8-27B-pi-adapted",
    "track": "开源大模型",
    "hook": "又一个能白嫖的开源大模型，本地部署实测",
@@ -632,15 +639,6 @@
   },
   {
    "source": "HuggingFace",
-   "name": "llamaindex/OCRia-nano-1",
-   "track": "开源大模型",
-   "hook": "又一个能白嫖的开源大模型，本地部署实测",
-   "score": 1,
-   "updated": "",
-   "url": "https://huggingface.co/llamaindex/OCRia-nano-1"
-  },
-  {
-   "source": "HuggingFace",
    "name": "nari-labs/Qwen3.8-27B-NariQ-GGUF",
    "track": "开源大模型",
    "hook": "又一个能白嫖的开源大模型，本地部署实测",
@@ -650,21 +648,21 @@
   },
   {
    "source": "HuggingFace",
-   "name": "prism-ml/Ternary-Bonsai-2.5-27B-GGUF",
-   "track": "开源大模型",
-   "hook": "又一个能白嫖的开源大模型，本地部署实测",
-   "score": 1,
-   "updated": "",
-   "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2.5-27B-GGUF"
-  },
-  {
-   "source": "HuggingFace",
    "name": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
    "track": "开源大模型",
    "hook": "又一个能白嫖的开源大模型，本地部署实测",
    "score": 1,
    "updated": "",
    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
+  },
+  {
+   "source": "HuggingFace",
+   "name": "llamaindex/OCRia-1",
+   "track": "开源大模型",
+   "hook": "又一个能白嫖的开源大模型，本地部署实测",
+   "score": 1,
+   "updated": "",
+   "url": "https://huggingface.co/llamaindex/OCRia-1"
   },
   {
    "source": "HuggingFace",
@@ -686,21 +684,21 @@
   },
   {
    "source": "HuggingFace",
-   "name": "sensenova/SenseNova-Loop-9B-GGUF",
-   "track": "开源大模型",
-   "hook": "又一个能白嫖的开源大模型，本地部署实测",
-   "score": 1,
-   "updated": "",
-   "url": "https://huggingface.co/sensenova/SenseNova-Loop-9B-GGUF"
-  },
-  {
-   "source": "HuggingFace",
    "name": "meta-llama/Meta-Llama-3-8B-Instruct",
    "track": "开源大模型",
    "hook": "又一个能白嫖的开源大模型，本地部署实测",
    "score": 1,
    "updated": "",
    "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct"
+  },
+  {
+   "source": "HuggingFace",
+   "name": "mlx-community/FastFrames-L-bf16-mlx",
+   "track": "其他AI工具",
+   "hook": "新出的AI开源项目，值不值得跟",
+   "score": 0,
+   "updated": "2026-11-25T08:36",
+   "url": "https://huggingface.co/mlx-community/FastFrames-L-bf16-mlx"
   },
   {
    "source": "HuggingFace",
@@ -821,15 +819,6 @@
   },
   {
    "source": "HuggingFace",
-   "name": "mlx-community/Holo-3.1-4B-bf16",
-   "track": "其他AI工具",
-   "hook": "新出的AI开源项目，值不值得跟",
-   "score": 0,
-   "updated": "2026-11-24T15:56",
-   "url": "https://huggingface.co/mlx-community/Holo-3.1-4B-bf16"
-  },
-  {
-   "source": "HuggingFace",
    "name": "thinkingmachines/Inkling-2-Mini",
    "track": "其他AI工具",
    "hook": "新出的AI开源项目，值不值得跟",
@@ -848,48 +837,12 @@
   },
   {
    "source": "HuggingFace",
-   "name": "tencent/Hy4-flash",
-   "track": "其他AI工具",
-   "hook": "新出的AI开源项目，值不值得跟",
-   "score": 0,
-   "updated": "",
-   "url": "https://huggingface.co/tencent/Hy4-flash"
-  },
-  {
-   "source": "HuggingFace",
-   "name": "higurashi-ai/Haru-4B",
-   "track": "其他AI工具",
-   "hook": "新出的AI开源项目，值不值得跟",
-   "score": 0,
-   "updated": "",
-   "url": "https://huggingface.co/higurashi-ai/Haru-4B"
-  },
-  {
-   "source": "HuggingFace",
    "name": "apple/DepthPro2",
    "track": "其他AI工具",
    "hook": "新出的AI开源项目，值不值得跟",
    "score": 0,
    "updated": "",
    "url": "https://huggingface.co/apple/DepthPro2"
-  },
-  {
-   "source": "HuggingFace",
-   "name": "apple/FastFrames-L",
-   "track": "其他AI工具",
-   "hook": "新出的AI开源项目，值不值得跟",
-   "score": 0,
-   "updated": "",
-   "url": "https://huggingface.co/apple/FastFrames-L"
-  },
-  {
-   "source": "HuggingFace",
-   "name": "Lightricks/LTX-2.5",
-   "track": "其他AI工具",
-   "hook": "新出的AI开源项目，值不值得跟",
-   "score": 0,
-   "updated": "",
-   "url": "https://huggingface.co/Lightricks/LTX-2.5"
   },
   {
    "source": "HuggingFace",
@@ -902,21 +855,21 @@
   },
   {
    "source": "HuggingFace",
-   "name": "sensenova/SenseNova-Loop-9B",
+   "name": "higurashi-ai/Haru-4B",
    "track": "其他AI工具",
    "hook": "新出的AI开源项目，值不值得跟",
    "score": 0,
    "updated": "",
-   "url": "https://huggingface.co/sensenova/SenseNova-Loop-9B"
+   "url": "https://huggingface.co/higurashi-ai/Haru-4B"
   },
   {
    "source": "HuggingFace",
-   "name": "Sentinel7/h3",
+   "name": "Lightricks/LTX-2.5",
    "track": "其他AI工具",
    "hook": "新出的AI开源项目，值不值得跟",
    "score": 0,
    "updated": "",
-   "url": "https://huggingface.co/Sentinel7/h3"
+   "url": "https://huggingface.co/Lightricks/LTX-2.5"
   },
   {
    "source": "HuggingFace",
@@ -929,21 +882,30 @@
   },
   {
    "source": "HuggingFace",
+   "name": "Sentinel7/h3",
+   "track": "其他AI工具",
+   "hook": "新出的AI开源项目，值不值得跟",
+   "score": 0,
+   "updated": "",
+   "url": "https://huggingface.co/Sentinel7/h3"
+  },
+  {
+   "source": "HuggingFace",
+   "name": "tencent/Hy4-flash",
+   "track": "其他AI工具",
+   "hook": "新出的AI开源项目，值不值得跟",
+   "score": 0,
+   "updated": "",
+   "url": "https://huggingface.co/tencent/Hy4-flash"
+  },
+  {
+   "source": "HuggingFace",
    "name": "facebook/sam-3d-body-dinov3",
    "track": "AI 3D/动画",
    "hook": "一句话生成3D/动画，开源新玩家",
    "score": 0,
    "updated": "",
    "url": "https://huggingface.co/facebook/sam-3d-body-dinov3"
-  },
-  {
-   "source": "HuggingFace",
-   "name": "RadixArk/DaisyRose-27B",
-   "track": "其他AI工具",
-   "hook": "新出的AI开源项目，值不值得跟",
-   "score": 0,
-   "updated": "",
-   "url": "https://huggingface.co/RadixArk/DaisyRose-27B"
   },
   {
    "source": "HuggingFace",
@@ -965,12 +927,12 @@
   },
   {
    "source": "HuggingFace",
-   "name": "thinkingmachines/Inkling-2-Small",
+   "name": "apple/FastFrames-L",
    "track": "其他AI工具",
    "hook": "新出的AI开源项目，值不值得跟",
    "score": 0,
    "updated": "",
-   "url": "https://huggingface.co/thinkingmachines/Inkling-2-Small"
+   "url": "https://huggingface.co/apple/FastFrames-L"
   },
   {
    "source": "HuggingFace",
@@ -983,12 +945,39 @@
   },
   {
    "source": "HuggingFace",
+   "name": "RadixArk/DaisyRose-27B",
+   "track": "其他AI工具",
+   "hook": "新出的AI开源项目，值不值得跟",
+   "score": 0,
+   "updated": "",
+   "url": "https://huggingface.co/RadixArk/DaisyRose-27B"
+  },
+  {
+   "source": "HuggingFace",
+   "name": "KRAFTON/Raon-1-mini",
+   "track": "其他AI工具",
+   "hook": "新出的AI开源项目，值不值得跟",
+   "score": 0,
+   "updated": "",
+   "url": "https://huggingface.co/KRAFTON/Raon-1-mini"
+  },
+  {
+   "source": "HuggingFace",
    "name": "MemTensor/MemT-1.0-Pro",
    "track": "其他AI工具",
    "hook": "新出的AI开源项目，值不值得跟",
    "score": 0,
    "updated": "",
    "url": "https://huggingface.co/MemTensor/MemT-1.0-Pro"
+  },
+  {
+   "source": "HuggingFace",
+   "name": "sensenova/SenseNova-Loop-9B",
+   "track": "其他AI工具",
+   "hook": "新出的AI开源项目，值不值得跟",
+   "score": 0,
+   "updated": "",
+   "url": "https://huggingface.co/sensenova/SenseNova-Loop-9B"
   },
   {
    "source": "HuggingFace",
@@ -1001,39 +990,21 @@
   },
   {
    "source": "HuggingFace",
+   "name": "thinkingmachines/Inkling-2-Small",
+   "track": "其他AI工具",
+   "hook": "新出的AI开源项目，值不值得跟",
+   "score": 0,
+   "updated": "",
+   "url": "https://huggingface.co/thinkingmachines/Inkling-2-Small"
+  },
+  {
+   "source": "HuggingFace",
    "name": "facebook/sam3",
    "track": "其他AI工具",
    "hook": "新出的AI开源项目，值不值得跟",
    "score": 0,
    "updated": "",
    "url": "https://huggingface.co/facebook/sam3"
-  },
-  {
-   "source": "HuggingFace",
-   "name": "inclusionAI/LingSante-3.1-air-VL",
-   "track": "其他AI工具",
-   "hook": "新出的AI开源项目，值不值得跟",
-   "score": 0,
-   "updated": "",
-   "url": "https://huggingface.co/inclusionAI/LingSante-3.1-air-VL"
-  },
-  {
-   "source": "HuggingFace",
-   "name": "thinkingmachines/TML-d24-varloop-research",
-   "track": "其他AI工具",
-   "hook": "新出的AI开源项目，值不值得跟",
-   "score": 0,
-   "updated": "",
-   "url": "https://huggingface.co/thinkingmachines/TML-d24-varloop-research"
-  },
-  {
-   "source": "HuggingFace",
-   "name": "Reson8/Rumble-2-Flash",
-   "track": "其他AI工具",
-   "hook": "新出的AI开源项目，值不值得跟",
-   "score": 0,
-   "updated": "",
-   "url": "https://huggingface.co/Reson8/Rumble-2-Flash"
   },
   {
    "source": "HuggingFace",
@@ -1046,39 +1017,12 @@
   },
   {
    "source": "HuggingFace",
-   "name": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
-   "track": "其他AI工具",
-   "hook": "新出的AI开源项目，值不值得跟",
-   "score": 0,
-   "updated": "",
-   "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB"
-  },
-  {
-   "source": "HuggingFace",
    "name": "tencent/Hy4",
    "track": "其他AI工具",
    "hook": "新出的AI开源项目，值不值得跟",
    "score": 0,
    "updated": "",
    "url": "https://huggingface.co/tencent/Hy4"
-  },
-  {
-   "source": "HuggingFace",
-   "name": "surogate/Surogate3.7-35B-A3B",
-   "track": "其他AI工具",
-   "hook": "新出的AI开源项目，值不值得跟",
-   "score": 0,
-   "updated": "",
-   "url": "https://huggingface.co/surogate/Surogate3.7-35B-A3B"
-  },
-  {
-   "source": "HuggingFace",
-   "name": "CaryPalmer/Kintsugi-27B",
-   "track": "其他AI工具",
-   "hook": "新出的AI开源项目，值不值得跟",
-   "score": 0,
-   "updated": "",
-   "url": "https://huggingface.co/CaryPalmer/Kintsugi-27B"
   },
   {
    "source": "HuggingFace",
@@ -1091,39 +1035,21 @@
   },
   {
    "source": "HuggingFace",
-   "name": "briaai/RMBG-3.0",
+   "name": "mlx-community/Inkling-2-Mini-oQ4e-mtp",
    "track": "其他AI工具",
    "hook": "新出的AI开源项目，值不值得跟",
    "score": 0,
    "updated": "",
-   "url": "https://huggingface.co/briaai/RMBG-3.0"
+   "url": "https://huggingface.co/mlx-community/Inkling-2-Mini-oQ4e-mtp"
   },
   {
    "source": "HuggingFace",
-   "name": "pyannote/speaker-diarization-community-1",
+   "name": "sand-ai/MAGI-2-preview",
    "track": "其他AI工具",
    "hook": "新出的AI开源项目，值不值得跟",
    "score": 0,
    "updated": "",
-   "url": "https://huggingface.co/pyannote/speaker-diarization-community-1"
-  },
-  {
-   "source": "HuggingFace",
-   "name": "maxwell-model/Maxwell-V1-Flash",
-   "track": "其他AI工具",
-   "hook": "新出的AI开源项目，值不值得跟",
-   "score": 0,
-   "updated": "",
-   "url": "https://huggingface.co/maxwell-model/Maxwell-V1-Flash"
-  },
-  {
-   "source": "HuggingFace",
-   "name": "microsoft/Aion-1.0-Instruct-2.3B",
-   "track": "其他AI工具",
-   "hook": "新出的AI开源项目，值不值得跟",
-   "score": 0,
-   "updated": "",
-   "url": "https://huggingface.co/microsoft/Aion-1.0-Instruct-2.3B"
+   "url": "https://huggingface.co/sand-ai/MAGI-2-preview"
   },
   {
    "source": "HuggingFace",
@@ -1136,12 +1062,39 @@
   },
   {
    "source": "HuggingFace",
-   "name": "n4ze3m/tiny-voca",
+   "name": "microsoft/Aion-1.0-Instruct-2.3B",
    "track": "其他AI工具",
    "hook": "新出的AI开源项目，值不值得跟",
    "score": 0,
    "updated": "",
-   "url": "https://huggingface.co/n4ze3m/tiny-voca"
+   "url": "https://huggingface.co/microsoft/Aion-1.0-Instruct-2.3B"
+  },
+  {
+   "source": "HuggingFace",
+   "name": "pyannote/speaker-diarization-community-1",
+   "track": "其他AI工具",
+   "hook": "新出的AI开源项目，值不值得跟",
+   "score": 0,
+   "updated": "",
+   "url": "https://huggingface.co/pyannote/speaker-diarization-community-1"
+  },
+  {
+   "source": "HuggingFace",
+   "name": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
+   "track": "其他AI工具",
+   "hook": "新出的AI开源项目，值不值得跟",
+   "score": 0,
+   "updated": "",
+   "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB"
+  },
+  {
+   "source": "HuggingFace",
+   "name": "briaai/RMBG-3.0",
+   "track": "其他AI工具",
+   "hook": "新出的AI开源项目，值不值得跟",
+   "score": 0,
+   "updated": "",
+   "url": "https://huggingface.co/briaai/RMBG-3.0"
   },
   {
    "source": "HuggingFace",
@@ -1151,6 +1104,42 @@
    "score": 0,
    "updated": "",
    "url": "https://huggingface.co/TenStrip/10Eros-Max"
+  },
+  {
+   "source": "HuggingFace",
+   "name": "tencent/Hy-MT3-30B-A3B",
+   "track": "其他AI工具",
+   "hook": "新出的AI开源项目，值不值得跟",
+   "score": 0,
+   "updated": "",
+   "url": "https://huggingface.co/tencent/Hy-MT3-30B-A3B"
+  },
+  {
+   "source": "HuggingFace",
+   "name": "lightx2v/Minimax-H3-Turbo-Fusion",
+   "track": "其他AI工具",
+   "hook": "新出的AI开源项目，值不值得跟",
+   "score": 0,
+   "updated": "",
+   "url": "https://huggingface.co/lightx2v/Minimax-H3-Turbo-Fusion"
+  },
+  {
+   "source": "HuggingFace",
+   "name": "Reson8/Rumble-2-Flash",
+   "track": "其他AI工具",
+   "hook": "新出的AI开源项目，值不值得跟",
+   "score": 0,
+   "updated": "",
+   "url": "https://huggingface.co/Reson8/Rumble-2-Flash"
+  },
+  {
+   "source": "HuggingFace",
+   "name": "thinkingmachines/TML-d24-varloop-research",
+   "track": "其他AI工具",
+   "hook": "新出的AI开源项目，值不值得跟",
+   "score": 0,
+   "updated": "",
+   "url": "https://huggingface.co/thinkingmachines/TML-d24-varloop-research"
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-25",
-  "checked_at": "2026-11-25T09:00:02+08:00",
+  "date": "2026-11-26",
+  "checked_at": "2026-11-26T09:00:01+08:00",
   "providers_total": 17,
   "alive_verified": 4,
   "alive": 3,
@@ -17,5 +17,5 @@
     "OPENROUTER_API_KEY"
   ],
   "openrouter_free_count": 14,
-  "clawlabs_count": 15
+  "clawlabs_count": 14
 }
