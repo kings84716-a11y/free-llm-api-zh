@@ -1,16 +1,16 @@
 {
- "checked_at": "2026-11-26T09:00:20+0800",
+ "checked_at": "2026-11-27T09:00:21+0800",
  "new_providers": [
   {
    "candidate_id": "inferall",
    "name": "InferAll",
    "free_model_count": 6,
    "sample_models": [
-    "openai/gpt-oss-20b",
-    "nvidia/nemotron-3.5-lightning-30b-a3b",
+    "z-ai/glm-5.3",
+    "z-ai/glm-5.3-flash",
     "nvidia/nemotron-3-ultra-550b-a55b",
     "nvidia/nemotron-3.5-super-vl-120b-a12b",
-    "z-ai/glm-5.3"
+    "nvidia/nemotron-3.5-lightning-30b-a3b"
    ],
    "api_base": "https://api.inferall.ai/v1",
    "env_var": [
@@ -26,8 +26,8 @@
    "free_model_count": 3,
    "sample_models": [
     "jad-code",
-    "jad-go",
-    "jad-ai"
+    "jad-ai",
+    "jad-go"
    ],
    "api_base": "https://jadai.freesrv.com/v1",
    "env_var": [
@@ -84,21 +84,6 @@
    "first_seen_today": false
   },
   {
-   "candidate_id": "togetherai",
-   "name": "Together AI",
-   "free_model_count": 1,
-   "sample_models": [
-    "Prism-ML/Ternary-Bonsai-27B"
-   ],
-   "api_base": "",
-   "env_var": [
-    "TOGETHER_API_KEY"
-   ],
-   "source": "models.dev",
-   "note": "待人工确认注册门槛/是否真免费/是否中转",
-   "first_seen_today": false
-  },
-  {
    "candidate_id": "obscurify",
    "name": "Obscurify.ai",
    "free_model_count": 1,
@@ -108,6 +93,21 @@
    "api_base": "https://obscurify.ai/v1",
    "env_var": [
     "OBSCURIFY_API_KEY"
+   ],
+   "source": "models.dev",
+   "note": "待人工确认注册门槛/是否真免费/是否中转",
+   "first_seen_today": false
+  },
+  {
+   "candidate_id": "togetherai",
+   "name": "Together AI",
+   "free_model_count": 1,
+   "sample_models": [
+    "Prism-ML/Ternary-Bonsai-27B"
+   ],
+   "api_base": "",
+   "env_var": [
+    "TOGETHER_API_KEY"
    ],
    "source": "models.dev",
    "note": "待人工确认注册门槛/是否真免费/是否中转",
@@ -122,5 +122,5 @@
  },
  "openrouter_free_total": 14,
  "clawlabs_total": 14,
- "clawlabs_healthy": 2
+ "clawlabs_healthy": 5
 }

@@ -1,0 +1,126 @@
+{
+ "checked_at": "2026-11-27T09:00:21+0800",
+ "new_providers": [
+  {
+   "candidate_id": "inferall",
+   "name": "InferAll",
+   "free_model_count": 6,
+   "sample_models": [
+    "z-ai/glm-5.3",
+    "z-ai/glm-5.3-flash",
+    "nvidia/nemotron-3-ultra-550b-a55b",
+    "nvidia/nemotron-3.5-super-vl-120b-a12b",
+    "nvidia/nemotron-3.5-lightning-30b-a3b"
+   ],
+   "api_base": "https://api.inferall.ai/v1",
+   "env_var": [
+    "INFERALL_API_KEY"
+   ],
+   "source": "models.dev",
+   "note": "待人工确认注册门槛/是否真免费/是否中转",
+   "first_seen_today": false
+  },
+  {
+   "candidate_id": "jad-ai",
+   "name": "Jad AI",
+   "free_model_count": 3,
+   "sample_models": [
+    "jad-code",
+    "jad-ai",
+    "jad-go"
+   ],
+   "api_base": "https://jadai.freesrv.com/v1",
+   "env_var": [
+    "JAD_API_KEY"
+   ],
+   "source": "models.dev",
+   "note": "待人工确认注册门槛/是否真免费/是否中转",
+   "first_seen_today": false
+  },
+  {
+   "candidate_id": "edenai",
+   "name": "Eden AI",
+   "free_model_count": 2,
+   "sample_models": [
+    "command-a-vision-07-2025",
+    "command-a-translate-08-2025"
+   ],
+   "api_base": "https://api.edenai.run/v3",
+   "env_var": [
+    "EDENAI_API_KEY"
+   ],
+   "source": "models.dev",
+   "note": "待人工确认注册门槛/是否真免费/是否中转",
+   "first_seen_today": false
+  },
+  {
+   "candidate_id": "concentrate",
+   "name": "Concentrate",
+   "free_model_count": 1,
+   "sample_models": [
+    "apodex-1.1-mini"
+   ],
+   "api_base": "https://api.concentrate.ai/v1",
+   "env_var": [
+    "CONCENTRATE_API_KEY"
+   ],
+   "source": "models.dev",
+   "note": "待人工确认注册门槛/是否真免费/是否中转",
+   "first_seen_today": false
+  },
+  {
+   "candidate_id": "cheapllm",
+   "name": "cheapllm.shop",
+   "free_model_count": 1,
+   "sample_models": [
+    "deepseek-v4.1-flash-1017"
+   ],
+   "api_base": "https://cheapllm.shop/v1",
+   "env_var": [
+    "CHEAPLLM_API_KEY"
+   ],
+   "source": "models.dev",
+   "note": "待人工确认注册门槛/是否真免费/是否中转",
+   "first_seen_today": false
+  },
+  {
+   "candidate_id": "obscurify",
+   "name": "Obscurify.ai",
+   "free_model_count": 1,
+   "sample_models": [
+    "deepseek/deepseek-v4-flash"
+   ],
+   "api_base": "https://obscurify.ai/v1",
+   "env_var": [
+    "OBSCURIFY_API_KEY"
+   ],
+   "source": "models.dev",
+   "note": "待人工确认注册门槛/是否真免费/是否中转",
+   "first_seen_today": false
+  },
+  {
+   "candidate_id": "togetherai",
+   "name": "Together AI",
+   "free_model_count": 1,
+   "sample_models": [
+    "Prism-ML/Ternary-Bonsai-27B"
+   ],
+   "api_base": "",
+   "env_var": [
+    "TOGETHER_API_KEY"
+   ],
+   "source": "models.dev",
+   "note": "待人工确认注册门槛/是否真免费/是否中转",
+   "first_seen_today": false
+  }
+ ],
+ "new_openrouter_models": [],
+ "sources_status": {
+  "models.dev": "ok",
+  "openrouter": "ok",
+  "clawlabs": "ok"
+ },
+ "openrouter_free_total": 14,
+ "clawlabs_total": 14,
+ "clawlabs_healthy": 5
+}
