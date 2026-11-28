@@ -1,8 +1,8 @@
 {
   "fetched": true,
-  "source_updated_at": "2026-11-26T13:38:57.169Z",
-  "checked_at": "2026-11-27T09:00:02+08:00",
-  "count": 14,
+  "source_updated_at": "2026-11-27T13:34:52.436Z",
+  "checked_at": "2026-11-28T09:00:01+08:00",
+  "count": 13,
   "models": [
     {
       "id": "baidu/ernie-5.5-flash-preview:free",
@@ -43,14 +43,6 @@
       "data_use": "no-training",
       "context_window": 1048576,
       "modalities": "text,image,audio"
-    },
-    {
-      "id": "inclusionai/ling-3.2-flash:free",
-      "health": "ok",
-      "rate": "20 RPM · 50 RPD",
-      "data_use": null,
-      "context_window": 1048576,
-      "modalities": "text,image"
     },
     {
       "id": "liquid/lfm-3-1.7b:free",
@@ -94,7 +86,7 @@
     },
     {
       "id": "particle-ai/particle-1:free",
-      "health": "sick",
+      "health": "",
       "rate": "20 RPM · 50 RPD",
       "data_use": null,
       "context_window": 1048576,

@@ -1,7 +1,7 @@
 {
   "fetched": true,
-  "checked_at": "2026-11-27T09:00:02+08:00",
-  "count": 14,
+  "checked_at": "2026-11-28T09:00:01+08:00",
+  "count": 13,
   "models": [
     {
       "id": "baidu/ernie-5.5-flash-preview:free",
@@ -30,12 +30,6 @@
     {
       "id": "google/lyria-3-pro-preview",
       "name": "Google: Lyria 3 Pro Preview",
-      "context": 1048576,
-      "modality": "text,image"
-    },
-    {
-      "id": "inclusionai/ling-3.2-flash:free",
-      "name": "inclusionAI: Ling 3.2 Flash (free)",
       "context": 1048576,
       "modality": "text,image"
     },
